@@ -2,7 +2,7 @@
 
 en:
   title: >-
-    Site
+    IRIS Instruments
   contentDir: content/en
   languageCode: en
   languageName: English
@@ -24,7 +24,7 @@ en:
     volume: volumes
 fr:
   title: >-
-    Site
+    IRIS Instruments
   contentDir: content/fr
   languageCode: fr
   languageName: Français
