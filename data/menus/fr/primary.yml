@@ -17,7 +17,7 @@ items:
   target: "/fr/agenda/"
   kind: page
   children: []
-- title: Projets
+- title: Produits
   target: "/fr/projets/"
   kind: page
   children: []
