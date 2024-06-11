@@ -9,4 +9,9 @@ params:
     active: false
   logo:
     header: "/assets/images/logo.svg"
-    footer: "/assets/images/logo-white.svg"  
+    footer: "/assets/images/logo-white.svg"
+  menu:
+    dropdown:
+      linkToLevel1: true
+  breadcrumb:
+    position: after-hero
