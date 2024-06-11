@@ -21,4 +21,8 @@ items:
   target: "/fr/projets/"
   kind: page
   children: []
+- title: Produits
+  target: "/fr/produits-1/"
+  kind: page
+  children: []
 
