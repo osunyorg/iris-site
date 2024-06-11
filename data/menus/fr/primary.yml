@@ -18,7 +18,11 @@ items:
   kind: page
   children: []
 - title: Produits
-  target: "/fr/projets/"
+  target: "/fr/produits-1/"
   kind: page
-  children: []
+  children:
+  - title: Syscal Kid Switch
+    target: "/fr/produits-1/syscal-kid-switch/"
+    kind: page
+    children: []
 
