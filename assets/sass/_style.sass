@@ -1,15 +1,4 @@
-#document-header
-    @include media-breakpoint-up(desktop)
-        .nav-level-1
-            li a
-                text-decoration-line: underline
-                text-decoration-style: wavy
-                //text-underline-offset: 8px
-                &.active
-                    text-decoration: none
-
 .page__home
-    
     .hero
         height: 100vh 
         --with-image
@@ -19,9 +8,6 @@
                 z-index: 2
                 .lead
                     font-style: italic
-                a
-                    .btn
-                        backgound: #ffdf14
             figure
                 @include inset(0)
                 position: absolute
@@ -39,9 +25,19 @@
                         object-fit: cover
                         object-position: center
 
-.button, .btn
-    @include icon(arrow-right, after, true)
-    background: #ffdf14
-    &:hover, &:focus, &:focus-visible
-            
 
+.button, .btn
+    background: #ffdf14
+    margin-left: $spacing-1
+    @include icon(arrow-right, before, true)
+    &:hover, &:focus, &:focus-visible
+        background-color: var(--color-text)
+        color: var(--color-background)
+
+.block-files
+    .files
+        li
+            &::before
+                background: #ffdf14
+                transition: background 0.3s ease, border 0.3s ease
+                width: pxToRem(60)

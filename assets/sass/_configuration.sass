@@ -19,5 +19,13 @@ $header-background: transparent
 $header-color: $color-text
 
 $hero-color: #214c6e
+$hero-height-desktop: 100px
+$hero-height: 100px
+
+@mixin icon-site($icon)
+    @include icon
+    content: map-get($icons-site, $icon)
+    font-family: 'Icon-site'
+    font-size: pxToRem(16)
 
 $breadcrumb-color: #214c6e
