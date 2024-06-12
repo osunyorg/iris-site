@@ -25,4 +25,8 @@ items:
       target: "/fr/produits-1/syscal-kid-switch/"
       kind: page
       children: []
+    - title: Syscal Junior Switch
+      target: "/fr/produits-1/"
+      kind: page
+      children: []
 
