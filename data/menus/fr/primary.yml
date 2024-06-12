@@ -13,14 +13,14 @@ items:
   target: "/fr/produits-1/"
   kind: page
   children:
-  - title: Syscal Kid Switch
-    target: "/fr/produits-1/syscal-kid-switch/"
-    kind: page
-    children: []
   - title: Résistivité Electrique
     target: ''
     kind: blank
-    children: []
+    children:
+    - title: Syscal Kid Switch
+      target: "/fr/produits-1/syscal-kid-switch/"
+      kind: page
+      children: []
   - title: Syscal
     target: ''
     kind: blank
