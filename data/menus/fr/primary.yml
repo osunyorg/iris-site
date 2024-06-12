@@ -21,4 +21,8 @@ items:
     target: ''
     kind: blank
     children: []
+  - title: Résistivité Electrique
+    target: ''
+    kind: blank
+    children: []
 
