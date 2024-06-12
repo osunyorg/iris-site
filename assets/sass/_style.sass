@@ -11,15 +11,17 @@
 .page__home
     
     .hero
-        height: 80vh 
+        height: 100vh 
         --with-image
-        background: #b9e1df 
         position: relative
         .content
             .hero-text
                 z-index: 2
                 .lead
                     font-style: italic
+                a
+                    .btn
+                        backgound: #ffdf14
             figure
                 @include inset(0)
                 position: absolute
@@ -36,4 +38,10 @@
                         min-height: 100%
                         object-fit: cover
                         object-position: center
+
+.button, .btn
+    @include icon(arrow-right, after, true)
+    background: #ffdf14
+    &:hover, &:focus, &:focus-visible
+            
 
