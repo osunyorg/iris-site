@@ -17,4 +17,8 @@ items:
     target: "/fr/produits-1/syscal-kid-switch/"
     kind: page
     children: []
+  - title: Syscal
+    target: ''
+    kind: blank
+    children: []
 
