@@ -7,7 +7,11 @@
             .hero-text
                 z-index: 2
                 .lead
+                    width: columns(7)
+                    margin-left: columns(2)
                     font-style: italic
+                a
+                   margin-left: columns(2)
             figure
                 @include inset(0)
                 position: absolute
@@ -28,7 +32,6 @@
 
 .button, .btn
     background: #ffdf14
-    margin-left: $spacing-1
     @include icon(arrow-right, after, true)
     &:hover, &:focus, &:focus-visible
         background-color: var(--color-text)

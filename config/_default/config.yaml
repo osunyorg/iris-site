@@ -7,11 +7,12 @@ params:
     position: hero
   search:
     active: true
+  breadcrumb:
+    position: hero-start
+    footer:
   logo:
     header: "/assets/images/logo.svg"
-    footer: "/assets/images/logo-white.svg"
+    footer: "/assets/images/logo-white.svg"   
   menu:
     dropdown:
       linkToLevel1: true
-  breadcrumb:
-    position: after-hero
