@@ -5,10 +5,6 @@ items:
   target: "/fr/actualites/"
   kind: page
   children: []
-- title: Équipe
-  target: "/fr/equipe/"
-  kind: page
-  children: []
 - title: Agenda
   target: "/fr/agenda/"
   kind: page
