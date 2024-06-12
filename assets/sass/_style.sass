@@ -14,12 +14,11 @@
         height: 80vh 
         --with-image
         z-index: -1
-        background: #3ca6a2 
+        background: #b9e1df 
         position: relative
         .content
             z-index: 1
             figure
-                background: #3ca6a2 
                 @include inset(0)
                 z-index: -1
                 position: absolute
@@ -27,7 +26,6 @@
                 height: 100%
                 margin: 0
                 overflow: hidden
-                filter: invert(100%)
+                filter: grayscale(100%), invert(100%)
                 mix-blend-mode: screen
-                opacity: 50%
-                //filter: sepia(100%)
+                opacity: 100%
