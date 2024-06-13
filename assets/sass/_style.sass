@@ -54,14 +54,18 @@
         .nav-level-1
             li a
                 text-decoration: none
+                padding: 0
+                margin: pxToRem(10)
+                overflow: hidden
 
                 &.active
                     text-decoration: none
                 &:hover
                     text-decoration: none
                     @include icon-site(wave)
+                    width: fit-content
                     transition: none
                     &::after
                         position: absolute
-                        transform: translate(-100px, 5px)
+                        transform: translate(-100px, 2px)
                         font-size: pxToRem(50)
