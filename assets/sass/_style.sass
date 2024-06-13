@@ -33,7 +33,7 @@
 
 .button, .btn
     background: #ffdf14
-    @include icon(arrow-right, after, true)
+    @include icon-site(wave, after, true)
     &:hover, &:focus, &:focus-visible
         background-color: var(--color-text)
         color: var(--color-background)
@@ -45,3 +45,11 @@
                 background: #ffdf14
                 transition: background 0.3s ease, border 0.3s ease
                 width: pxToRem(60)
+
+#document-header
+    @include media-breakpoint-up(desktop)
+        .nav-level-1
+            li a
+                text-underline-offset: 8px
+                &.active
+                    text-decoration: none
