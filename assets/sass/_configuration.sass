@@ -9,33 +9,30 @@ $color-text: #214c6e
 $color-text-alt: #3ca6a2
 $color-background: #FFFFFF
 $color-background-alt: linear-gradient(#b9e1df, #FFFFFF)
-$color-border: #214c6e
+$color-border: $color-text
 
-$footer-background-color: #214c6e
+$footer-background-color: $color-text
 $footer-color: #FFFFFF
 
 $header-logo-height: 50px
 $header-background: transparent
 $header-color: $color-text
 $header-dropdown-full: true
+$header-border-bottom-width: 0
 
 $hero-color: #214c6e
 $hero-height-desktop: 100px
 $hero-height: 100px
 
 $icons-site: ()
-$icons-site: map-merge($icons-site, ("outline": "\ee14"))
-$icons-site: map-merge($icons-site, ("arrow-top": "\ee15"))
-$icons-site: map-merge($icons-site, ("asterisk": "\ee16"))
-$icons-site: map-merge($icons-site, ("wave": "\e900"))
-$icons-site: map-merge($icons-site, ("arrow-left": "\ff00"))
-$icons-site: map-merge($icons-site, ("search": "\ee13"))
-$icons-site: map-merge($icons-site, ("extend": "\e900"))
+$icons-site: map-merge($icons-site, ("wave": "\e901"))
 
-@mixin icon-site($icon: '', $pseudo-element: after, $non-breaking: false)
+
+@mixin icon-site($icon: '', $pseudo-element: after, $non-breaking: true)
     @include icon($pseudo-element: $pseudo-element, $non-breaking: $non-breaking)
-        content: map-get($icons-site, $icon)
+        content: " #{map-get($icons-site, $icon)}"
+        display: inline 
         font-family: 'Icon-site'
-        font-size: pxToRem(2.2)
+        font-size: pxToRem(24)
 
 $breadcrumb-color: #214c6e

@@ -1,8 +1,7 @@
 .page__home
     .hero
-        height: 100vh 
+        z-index: 1
         --with-image
-        position: relative
         .content
             .hero-text
                 z-index: 1
@@ -20,23 +19,27 @@
                 filter: grayscale(100%)
                 mix-blend-mode: screen
                 opacity: 100%
+                z-index: -1
                 @include media-breakpoint-up(desktop)
                     width: 100%
                 picture
                     height: 100%
                     img
-                        z-index: -1
                         min-height: 100%
                         object-fit: cover
                         object-position: center
 
 
 .button, .btn
-    background: #ffdf14
+    background: transparent
     @include icon-site(wave, after, true)
+    border-radius: 40px
+    border-width: 2px
     &:hover, &:focus, &:focus-visible
-        background-color: var(--color-text)
-        color: var(--color-background)
+        background: #ffdf14
+        //border-color: #ffdf14
+        //color: var(--color-background)
+        border-width: 2px
 
 .block-files
     .files
@@ -51,5 +54,14 @@
         .nav-level-1
             li a
                 text-underline-offset: 8px
+
                 &.active
                     text-decoration: none
+                &:hover
+                    text-decoration: none
+                    @include icon-site(wave)
+                    transition: none
+                    &::after
+                        position: absolute
+                        transform: translate(-100px, 5px)
+                        font-size: pxToRem(50)
