@@ -8,7 +8,7 @@ params:
   search:
     active: true
   breadcrumb:
-    position: hero-start
+    position: hero-end
     footer:
   logo:
     header: "/assets/images/logo.svg"
