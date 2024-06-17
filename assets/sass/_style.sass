@@ -6,7 +6,8 @@
 
 .button, .btn
     background: transparent
-    @include icon-site(wave, after, true)
+    @include icon-site(wave, after, false)
+    @include hover-translate-icon(after)
     border-radius: 40px
     border-width: 2px
     &:hover, &:focus, &:focus-visible
