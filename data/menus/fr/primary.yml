@@ -17,10 +17,6 @@ items:
     target: ''
     kind: blank
     children:
-    - title: Syscal
-      target: ''
-      kind: blank
-      children: []
     - title: Syscal Junior Switch
       target: "/fr/produits-1/"
       kind: page
