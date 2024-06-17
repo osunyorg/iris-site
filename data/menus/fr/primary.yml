@@ -25,4 +25,8 @@ items:
       target: "/fr/produits-1/"
       kind: page
       children: []
+  - title: Polarisation provoquée
+    target: ''
+    kind: blank
+    children: []
 
