@@ -15,4 +15,4 @@ params:
     footer: "/assets/images/logo-white.svg"   
   menu:
     dropdown:
-      linkToLevel1: true
+      linkToLevel1: false
