@@ -33,4 +33,8 @@ items:
     target: ''
     kind: blank
     children: []
+  - title: Résonance magnétique protonique
+    target: ''
+    kind: blank
+    children: []
 
