@@ -29,7 +29,7 @@ items:
     target: ''
     kind: blank
     children:
-    - title: Emetteur
+    - title: Émetteur
       target: ''
       kind: blank
       children: []
