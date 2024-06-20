@@ -17,14 +17,14 @@ items:
     target: ''
     kind: blank
     children:
-    - title: Syscal Kid
-      target: "/fr/produits-1/syscal-kid/"
-      kind: page
-      children: []
     - title: Résistivimètres
       target: ''
       kind: blank
-      children: []
+      children:
+      - title: Syscal Kid
+        target: "/fr/produits-1/syscal-kid/"
+        kind: page
+        children: []
   - title: Polarisation provoquée
     target: ''
     kind: blank
