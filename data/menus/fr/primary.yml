@@ -16,11 +16,7 @@ items:
   - title: Résistivité Electrique
     target: ''
     kind: blank
-    children:
-    - title: Syscal Junior Switch
-      target: "/fr/produits-1/"
-      kind: page
-      children: []
+    children: []
   - title: Polarisation provoquée
     target: ''
     kind: blank
