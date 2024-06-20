@@ -13,7 +13,7 @@ items:
   target: "/fr/produits-1/"
   kind: page
   children:
-  - title: Résistivité Electrique
+  - title: Résistivité Électrique
     target: ''
     kind: blank
     children:
