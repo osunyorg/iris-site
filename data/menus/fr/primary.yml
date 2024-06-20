@@ -24,7 +24,11 @@ items:
   - title: Polarisation provoquée
     target: ''
     kind: blank
-    children: []
+    children:
+    - title: Emetteur
+      target: ''
+      kind: blank
+      children: []
   - title: Electromagnétisme
     target: ''
     kind: blank
