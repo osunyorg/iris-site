@@ -13,16 +13,24 @@ items:
   target: "/fr/produits-1/"
   kind: page
   children:
-  - title: Résistivité Electrique
+  - title: Résistivité Électrique
     target: ''
     kind: blank
     children:
-    - title: Syscal
+    - title: Résistivimètres
+      target: "/fr/produits-1/resistivimetres/"
+      kind: page
+      children: []
+  - title: Polarisation provoquée
+    target: ''
+    kind: blank
+    children:
+    - title: Émetteur
       target: ''
       kind: blank
       children: []
-    - title: Syscal Junior Switch
-      target: "/fr/produits-1/"
-      kind: page
+    - title: Récepteur
+      target: ''
+      kind: blank
       children: []
 
