@@ -37,10 +37,6 @@ items:
       target: ''
       kind: blank
       children: []
-  - title: Geometrics
-    target: ''
-    kind: blank
-    children: []
   - title: Accessoires
     target: ''
     kind: blank
