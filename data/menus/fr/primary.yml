@@ -37,8 +37,4 @@ items:
       target: ''
       kind: blank
       children: []
-  - title: Accessoires
-    target: ''
-    kind: blank
-    children: []
 
