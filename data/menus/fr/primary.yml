@@ -18,8 +18,8 @@ items:
     kind: blank
     children:
     - title: Résistivimètres
-      target: ''
-      kind: blank
+      target: "/fr/produits-1/resistivimetres/"
+      kind: page
       children: []
   - title: Polarisation provoquée
     target: ''
