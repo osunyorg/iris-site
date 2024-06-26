@@ -4,14 +4,16 @@
 
 .button, .btn
     background: white
+    border-radius: $spacing-5
+    padding-left: $spacing-3
+    padding-right: $spacing-3
     @include icon-site(wave, after, false)
     @include hover-translate-icon(after)
-    border-radius: 40px
-    border-width: 2px
-    &:hover, &:focus, &:focus-visible
+    &:hover,
+    &:focus, 
+    &:focus-visible
         background: $color-text
         color: var(--color-background)
-        border-width: 2px
 
 .blocks
     .block-title
