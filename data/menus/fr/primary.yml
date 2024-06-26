@@ -1,6 +1,10 @@
 ---
 title: Menu principal
 items:
+- title: L'entreprise
+  target: "/fr/lentreprise/"
+  kind: page
+  children: []
 - title: Actualités
   target: "/fr/actualites/"
   kind: page
