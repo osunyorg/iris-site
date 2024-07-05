@@ -1,10 +1,6 @@
 ---
 title: Main menu
 items:
-- title: Agenda
-  target: "/en/agenda/"
-  kind: page
-  children: []
 - title: Products
   target: "/en/produits-1/"
   kind: page
@@ -23,6 +19,10 @@ items:
   children: []
 - title: Posts
   target: "/en/posts/"
+  kind: page
+  children: []
+- title: Agenda
+  target: "/en/agenda/"
   kind: page
   children: []
 - title: Team
