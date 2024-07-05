@@ -33,10 +33,6 @@ items:
     target: "/en/softwares/processing-software-1/"
     kind: page
     children: []
-- title: Projects
-  target: "/en/projects/"
-  kind: page
-  children: []
 - title: Posts
   target: "/en/posts/"
   kind: page
