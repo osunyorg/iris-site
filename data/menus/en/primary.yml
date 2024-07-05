@@ -41,4 +41,8 @@ items:
     target: "/en/softwares/processing-software-1/"
     kind: page
     children: []
+- title: Support
+  target: https://support.iris-instruments.com
+  kind: url
+  children: []
 
