@@ -37,4 +37,8 @@ items:
       target: ''
       kind: blank
       children: []
+- title: Applications
+  target: "/fr/applications/"
+  kind: page
+  children: []
 
