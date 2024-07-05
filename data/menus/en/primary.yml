@@ -13,4 +13,8 @@ items:
   target: "/en/posts/"
   kind: page
   children: []
+- title: Team
+  target: "/en/team/"
+  kind: page
+  children: []
 

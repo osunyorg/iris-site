@@ -8,10 +8,19 @@ en:
   languageName: English
   params:
     social:
+      email: >-
+        sales@iris-instruments.com
+      linkedin: >-
+        https://fr.linkedin.com › company › iris-instruments
+      youtube: >-
+        https://www.youtube.com/channel/UCBIIy6BM4Qhc7QK0WlkWhZA
   permalinks:
     posts: /posts/:year-:month-:day-:slug/
     events: /agenda/:year-:month-:day-:slug/
     events_categories: /agenda/:slug/
+    persons: /team/:slug/
+    persons_categories: /team/categories/:slug/
+    authors: /team/:slug/posts/
   taxonomies:
     administrator: administrators
     author: authors
@@ -33,10 +42,19 @@ fr:
   languageName: Français
   params:
     social:
+      email: >-
+        sales@iris-instruments.com
+      linkedin: >-
+        https://fr.linkedin.com › company › iris-instruments
+      youtube: >-
+        https://www.youtube.com/channel/UCBIIy6BM4Qhc7QK0WlkWhZA
   permalinks:
     posts: /actualites/:year-:month-:day-:slug/
     events: /agenda/:year-:month-:day-:slug/
     events_categories: /agenda/:slug/
+    persons: /equipe/:slug/
+    persons_categories: /equipe/categories/:slug/
+    authors: /equipe/:slug/actualites/
   taxonomies:
     administrator: administrators
     author: authors
