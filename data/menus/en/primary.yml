@@ -25,6 +25,10 @@ items:
   target: "/en/posts/"
   kind: page
   children: []
+- title: Agenda
+  target: "/en/agenda/"
+  kind: page
+  children: []
 - title: Softwares
   target: "/en/softwares/"
   kind: page
@@ -37,8 +41,4 @@ items:
     target: "/en/softwares/processing-software-1/"
     kind: page
     children: []
-- title: Agenda
-  target: "/en/agenda/"
-  kind: page
-  children: []
 
