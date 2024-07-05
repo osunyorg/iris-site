@@ -41,4 +41,8 @@ items:
   target: "/fr/agenda/"
   kind: page
   children: []
+- title: Support
+  target: https://support.iris-instruments.com
+  kind: url
+  children: []
 
