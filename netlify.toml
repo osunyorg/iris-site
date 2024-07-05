@@ -10,4 +10,9 @@
   [headers.values]
     X-Frame-Options = "SAMEORIGIN"
     X-XSS-Protection = "0"
-    X-Content-Type-Options = "nosniff" 
+    X-Content-Type-Options = "nosniff"
+
+[[redirects]]
+  from = "/Download/versions.txt"
+  to = "https://download.iris-instruments.com/Download/versions.txt"
+  status = 301
