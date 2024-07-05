@@ -16,7 +16,11 @@ items:
 - title: Softwares
   target: "/en/softwares/"
   kind: page
-  children: []
+  children:
+  - title: Processing software
+    target: "/en/softwares/processing-software/"
+    kind: page
+    children: []
 - title: Projects
   target: "/en/projects/"
   kind: page
