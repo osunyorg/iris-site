@@ -1,6 +1,10 @@
 ---
 title: Main menu
 items:
+- title: Company
+  target: "/en/lentreprise/"
+  kind: page
+  children: []
 - title: Products
   target: "/en/produits-1/"
   kind: page
@@ -35,10 +39,6 @@ items:
   children: []
 - title: Agenda
   target: "/en/agenda/"
-  kind: page
-  children: []
-- title: Company
-  target: "/en/lentreprise/"
   kind: page
   children: []
 
