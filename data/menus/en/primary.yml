@@ -13,6 +13,18 @@ items:
   target: "/en/posts/"
   kind: page
   children: []
+- title: Products
+  target: "/en/produits-1/"
+  kind: page
+  children:
+  - title: Resistivity meter
+    target: "/en/produits-1/resistivimetres/"
+    kind: page
+    children:
+    - title: Syscal Kid
+      target: "/en/produits-1/resistivimetres/syscal-kid/"
+      kind: page
+      children: []
 - title: Team
   target: "/en/team/"
   kind: page
