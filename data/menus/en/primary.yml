@@ -5,14 +5,6 @@ items:
   target: "/en/agenda/"
   kind: page
   children: []
-- title: Projects
-  target: "/en/projects/"
-  kind: page
-  children: []
-- title: Posts
-  target: "/en/posts/"
-  kind: page
-  children: []
 - title: Products
   target: "/en/produits-1/"
   kind: page
@@ -25,6 +17,14 @@ items:
       target: "/en/produits-1/resistivimetres/syscal-kid/"
       kind: page
       children: []
+- title: Projects
+  target: "/en/projects/"
+  kind: page
+  children: []
+- title: Posts
+  target: "/en/posts/"
+  kind: page
+  children: []
 - title: Team
   target: "/en/team/"
   kind: page
