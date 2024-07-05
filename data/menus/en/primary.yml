@@ -17,6 +17,10 @@ items:
       target: "/en/produits-1/resistivimetres/syscal-kid/"
       kind: page
       children: []
+- title: Applications
+  target: "/en/applications/"
+  kind: page
+  children: []
 - title: Softwares
   target: "/en/softwares/"
   kind: page
@@ -39,10 +43,6 @@ items:
   children: []
 - title: Agenda
   target: "/en/agenda/"
-  kind: page
-  children: []
-- title: Applications
-  target: "/en/applications/"
   kind: page
   children: []
 
