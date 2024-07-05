@@ -5,14 +5,6 @@ items:
   target: "/fr/lentreprise/"
   kind: page
   children: []
-- title: Actualités
-  target: "/fr/actualites/"
-  kind: page
-  children: []
-- title: Agenda
-  target: "/fr/agenda/"
-  kind: page
-  children: []
 - title: Produits
   target: "/fr/produits-1/"
   kind: page
@@ -39,6 +31,14 @@ items:
       children: []
 - title: Applications
   target: "/fr/applications/"
+  kind: page
+  children: []
+- title: Actualités
+  target: "/fr/actualites/"
+  kind: page
+  children: []
+- title: Agenda
+  target: "/fr/agenda/"
   kind: page
   children: []
 
