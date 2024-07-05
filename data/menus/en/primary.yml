@@ -13,12 +13,12 @@ items:
     target: "/en/produits-1/resistivimetres/"
     kind: page
     children:
-    - title: Syscal Kid
-      target: "/en/produits-1/resistivimetres/syscal-kid/"
-      kind: page
-      children: []
     - title: Syscal Kid Switch
       target: "/en/produits-1/resistivimetres/syscal-kid-switch/"
+      kind: page
+      children: []
+    - title: Syscal Kid
+      target: "/en/produits-1/resistivimetres/syscal-kid/"
       kind: page
       children: []
 - title: Applications
