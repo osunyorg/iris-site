@@ -21,6 +21,10 @@ items:
       target: "/en/produits-1/resistivimetres/syscal-kid/"
       kind: page
       children: []
+    - title: Syscal Junior Switch
+      target: "/en/produits-1/resistivimetres/syscal-junior-switch/"
+      kind: page
+      children: []
 - title: Applications
   target: "/en/applications/"
   kind: page
