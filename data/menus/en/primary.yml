@@ -29,6 +29,10 @@ items:
     target: "/en/produits-1/induced-polarisation/"
     kind: page
     children: []
+  - title: Tools
+    target: "/en/produits-1/tools/"
+    kind: page
+    children: []
 - title: Applications
   target: "/en/applications/"
   kind: page
