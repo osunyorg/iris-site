@@ -29,12 +29,12 @@ items:
     target: "/en/produits-1/induced-polarisation/"
     kind: page
     children: []
-  - title: Tools
-    target: "/en/produits-1/tools/"
-    kind: page
-    children: []
   - title: Electromagnetic
     target: "/en/produits-1/electromagnetic/"
+    kind: page
+    children: []
+  - title: Tools
+    target: "/en/produits-1/tools/"
     kind: page
     children: []
 - title: Applications
