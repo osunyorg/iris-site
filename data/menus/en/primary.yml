@@ -33,6 +33,10 @@ items:
     target: "/en/produits-1/tools/"
     kind: page
     children: []
+  - title: Electromagnetic
+    target: "/en/produits-1/electromagnetic/"
+    kind: page
+    children: []
 - title: Applications
   target: "/en/applications/"
   kind: page
