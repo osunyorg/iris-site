@@ -61,6 +61,10 @@ items:
     target: "/en/softwares/processing-software-1/"
     kind: page
     children: []
+  - title: Driver
+    target: "/en/softwares/driver/"
+    kind: page
+    children: []
 - title: Contact
   target: "/en/contact/"
   kind: page
