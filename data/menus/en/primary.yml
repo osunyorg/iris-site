@@ -69,4 +69,8 @@ items:
   target: "/en/contact/"
   kind: page
   children: []
+- title: Syscal Junior
+  target: "/en/produits-1/resistivimetres/syscal-junior/"
+  kind: page
+  children: []
 
