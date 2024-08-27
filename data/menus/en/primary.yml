@@ -2,7 +2,7 @@
 title: Main menu
 items:
 - title: Company
-  target: "/en/lentreprise/"
+  target: "/en/company/"
   kind: page
   children: []
 - title: Products
