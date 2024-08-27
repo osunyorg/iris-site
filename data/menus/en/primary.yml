@@ -25,6 +25,10 @@ items:
       target: "/en/produits-1/resistivimetres/syscal-junior-switch/"
       kind: page
       children: []
+    - title: Syscal Junior
+      target: "/en/produits-1/resistivimetres/syscal-junior/"
+      kind: page
+      children: []
   - title: Induced Polarisation
     target: "/en/produits-1/induced-polarisation/"
     kind: page
@@ -67,10 +71,6 @@ items:
     children: []
 - title: Contact
   target: "/en/contact/"
-  kind: page
-  children: []
-- title: Syscal Junior
-  target: "/en/produits-1/resistivimetres/syscal-junior/"
   kind: page
   children: []
 
