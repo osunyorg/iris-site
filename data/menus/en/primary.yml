@@ -29,7 +29,7 @@ items:
       target: "/en/produits-1/resistivimetres/syscal-junior/"
       kind: page
       children: []
-    - title: Syscal R1 Switch
+    - title: Syscal R1 Plus Switch
       target: "/en/produits-1/resistivimetres/syscal-r1-plus-switch/"
       kind: page
       children: []
