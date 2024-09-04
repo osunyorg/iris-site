@@ -30,7 +30,7 @@ items:
       kind: page
       children: []
     - title: Syscal R1 plus
-      target: "/en/produits-1/resistivimetres/syscal-r1-plus/"
+      target: "/en/produits-1/resistivimetres/syscal-r1-switch/"
       kind: page
       children: []
   - title: Induced Polarisation
