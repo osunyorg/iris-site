@@ -29,6 +29,10 @@ items:
       target: "/en/produits-1/resistivimetres/syscal-junior/"
       kind: page
       children: []
+    - title: Syscal R1 plus
+      target: "/en/produits-1/resistivimetres/syscal-r1-plus/"
+      kind: page
+      children: []
   - title: Induced Polarisation
     target: "/en/produits-1/induced-polarisation/"
     kind: page
