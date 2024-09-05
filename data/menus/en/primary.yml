@@ -61,6 +61,10 @@ items:
   target: "/en/agenda/"
   kind: page
   children: []
+- title: IRIS Academy
+  target: "/en/iris-academy/"
+  kind: page
+  children: []
 - title: Softwares
   target: "/en/softwares/"
   kind: page
@@ -77,10 +81,6 @@ items:
     target: "/en/softwares/driver/"
     kind: page
     children: []
-- title: IRIS Academy
-  target: "/en/iris-academy/"
-  kind: page
-  children: []
 - title: Contact
   target: "/en/contact/"
   kind: page
