@@ -53,6 +53,10 @@ items:
       target: "/en/produits-1/resistivimetres/converter/"
       kind: page
       children: []
+    - title: Syscal Deep Marine
+      target: "/en/produits-1/resistivimetres/syscal-deep-marine/"
+      kind: page
+      children: []
   - title: Induced Polarisation
     target: "/en/produits-1/induced-polarisation/"
     kind: page
