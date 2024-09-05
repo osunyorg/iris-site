@@ -49,6 +49,10 @@ items:
       target: "/en/produits-1/resistivimetres/syscal-r2/"
       kind: page
       children: []
+    - title: Converter
+      target: "/en/produits-1/resistivimetres/converter/"
+      kind: page
+      children: []
   - title: Induced Polarisation
     target: "/en/produits-1/induced-polarisation/"
     kind: page
