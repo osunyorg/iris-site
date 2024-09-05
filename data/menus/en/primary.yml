@@ -57,6 +57,10 @@ items:
       target: "/en/produits-1/resistivimetres/syscal-deep-marine/"
       kind: page
       children: []
+    - title: Syscal Monitoring Unit (SMU)
+      target: "/en/produits-1/resistivimetres/syscal-monitoring-unit/"
+      kind: page
+      children: []
   - title: Induced Polarisation
     target: "/en/produits-1/induced-polarisation/"
     kind: page
