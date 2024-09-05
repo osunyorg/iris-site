@@ -77,12 +77,12 @@ items:
     target: "/en/softwares/driver/"
     kind: page
     children: []
-- title: Contact
-  target: "/en/contact/"
-  kind: page
-  children: []
 - title: IRIS Academy
   target: "/en/iris-academy/"
+  kind: page
+  children: []
+- title: Contact
+  target: "/en/contact/"
   kind: page
   children: []
 
