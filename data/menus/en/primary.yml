@@ -6,71 +6,71 @@ items:
   kind: page
   children: []
 - title: Products
-  target: "/en/produits-1/"
+  target: "/en/products/"
   kind: page
   children:
   - title: Resistivity meter
-    target: "/en/produits-1/resistivimetres/"
+    target: "/en/products/resistivimetres/"
     kind: page
     children:
     - title: Syscal Kid Switch
-      target: "/en/produits-1/resistivimetres/syscal-kid-switch/"
+      target: "/en/products/resistivimetres/syscal-kid-switch/"
       kind: page
       children: []
     - title: Syscal Kid
-      target: "/en/produits-1/resistivimetres/syscal-kid/"
+      target: "/en/products/resistivimetres/syscal-kid/"
       kind: page
       children: []
     - title: Syscal Junior Switch
-      target: "/en/produits-1/resistivimetres/syscal-junior-switch/"
+      target: "/en/products/resistivimetres/syscal-junior-switch/"
       kind: page
       children: []
     - title: Syscal Junior
-      target: "/en/produits-1/resistivimetres/syscal-junior/"
+      target: "/en/products/resistivimetres/syscal-junior/"
       kind: page
       children: []
     - title: Syscal R1 Plus Switch
-      target: "/en/produits-1/resistivimetres/syscal-r1-plus-switch/"
+      target: "/en/products/resistivimetres/syscal-r1-plus-switch/"
       kind: page
       children: []
     - title: Syscal R1 Plus
-      target: "/en/produits-1/resistivimetres/syscal-r1-plus/"
+      target: "/en/products/resistivimetres/syscal-r1-plus/"
       kind: page
       children: []
     - title: Syscal Pro Switch
-      target: "/en/produits-1/resistivimetres/syscal-pro-switch/"
+      target: "/en/products/resistivimetres/syscal-pro-switch/"
       kind: page
       children: []
     - title: Syscal Pro
-      target: "/en/produits-1/resistivimetres/syscal-pro/"
+      target: "/en/products/resistivimetres/syscal-pro/"
       kind: page
       children: []
     - title: Syscal R2
-      target: "/en/produits-1/resistivimetres/syscal-r2/"
+      target: "/en/products/resistivimetres/syscal-r2/"
       kind: page
       children: []
     - title: Converter
-      target: "/en/produits-1/resistivimetres/converter/"
+      target: "/en/products/resistivimetres/converter/"
       kind: page
       children: []
     - title: Syscal Deep Marine
-      target: "/en/produits-1/resistivimetres/syscal-deep-marine/"
+      target: "/en/products/resistivimetres/syscal-deep-marine/"
       kind: page
       children: []
     - title: Syscal Monitoring Unit (SMU)
-      target: "/en/produits-1/resistivimetres/syscal-monitoring-unit/"
+      target: "/en/products/resistivimetres/syscal-monitoring-unit/"
       kind: page
       children: []
   - title: Induced Polarisation
-    target: "/en/produits-1/induced-polarisation/"
+    target: "/en/products/induced-polarisation/"
     kind: page
     children: []
   - title: Electromagnetic
-    target: "/en/produits-1/electromagnetic/"
+    target: "/en/products/electromagnetic/"
     kind: page
     children: []
   - title: Tools
-    target: "/en/produits-1/tools/"
+    target: "/en/products/tools/"
     kind: page
     children: []
 - title: Applications
