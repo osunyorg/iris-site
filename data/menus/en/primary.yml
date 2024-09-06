@@ -77,6 +77,10 @@ items:
         target: "/en/products/induced-polarisation/tip-one/"
         kind: page
         children: []
+      - title: Tipix 2200
+        target: "/en/products/induced-polarisation/tipix-2200/"
+        kind: page
+        children: []
     - title: Receiver
       target: ''
       kind: blank
