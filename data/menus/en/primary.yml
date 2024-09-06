@@ -64,7 +64,11 @@ items:
   - title: Induced Polarisation
     target: "/en/products/induced-polarisation/"
     kind: page
-    children: []
+    children:
+    - title: Transmitter
+      target: ''
+      kind: blank
+      children: []
   - title: Electromagnetic
     target: "/en/products/electromagnetic/"
     kind: page
