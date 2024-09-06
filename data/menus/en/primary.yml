@@ -73,6 +73,10 @@ items:
         target: "/en/products/induced-polarisation/tip-one/"
         kind: page
         children: []
+    - title: Receiver
+      target: ''
+      kind: blank
+      children: []
   - title: Electromagnetic
     target: "/en/products/electromagnetic/"
     kind: page
