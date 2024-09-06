@@ -68,7 +68,11 @@ items:
     - title: Transmitter
       target: ''
       kind: blank
-      children: []
+      children:
+      - title: TIP One
+        target: "/en/products/induced-polarisation/tip-one/"
+        kind: page
+        children: []
   - title: Electromagnetic
     target: "/en/products/electromagnetic/"
     kind: page
