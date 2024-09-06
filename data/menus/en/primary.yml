@@ -104,7 +104,11 @@ items:
 - title: Training
   target: "/en/training/"
   kind: page
-  children: []
+  children:
+  - title: Resistivity Training
+    target: "/en/training/resistivity-training/"
+    kind: page
+    children: []
 - title: Softwares
   target: "/en/softwares/"
   kind: page
