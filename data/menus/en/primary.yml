@@ -85,6 +85,10 @@ items:
     target: "/en/products/tools/"
     kind: page
     children: []
+  - title: Electrical Resistivity
+    target: ''
+    kind: blank
+    children: []
 - title: Applications
   target: "/en/applications/"
   kind: page
