@@ -113,6 +113,10 @@ items:
     target: "/en/training/electromagnetic-traning/"
     kind: page
     children: []
+  - title: Magnetic Resonance Training
+    target: "/en/training/magnetic-resonance-training/"
+    kind: page
+    children: []
 - title: Softwares
   target: "/en/softwares/"
   kind: page
