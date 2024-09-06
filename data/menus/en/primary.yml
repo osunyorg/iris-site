@@ -110,7 +110,7 @@ items:
     kind: page
     children: []
   - title: Electromagnetic Traning
-    target: "/en/training/electromagnetic-traning/"
+    target: "/en/training/electromagnetic-training/"
     kind: page
     children: []
   - title: Magnetic Resonance Training
