@@ -109,6 +109,10 @@ items:
     target: "/en/training/resistivity-training/"
     kind: page
     children: []
+  - title: Electromagnetic Traning
+    target: "/en/training/electromagnetic-traning/"
+    kind: page
+    children: []
 - title: Softwares
   target: "/en/softwares/"
   kind: page
