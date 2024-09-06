@@ -9,6 +9,10 @@ items:
   target: "/en/products/"
   kind: page
   children:
+  - title: Electrical Resistivity
+    target: ''
+    kind: blank
+    children: []
   - title: Resistivity meter
     target: "/en/products/resistivimetres/"
     kind: page
@@ -84,10 +88,6 @@ items:
   - title: Tools
     target: "/en/products/tools/"
     kind: page
-    children: []
-  - title: Electrical Resistivity
-    target: ''
-    kind: blank
     children: []
 - title: Applications
   target: "/en/applications/"
