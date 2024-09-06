@@ -97,16 +97,12 @@ items:
   target: "/en/applications/"
   kind: page
   children: []
-- title: Posts
-  target: "/en/posts/"
-  kind: page
-  children: []
-- title: Agenda
-  target: "/en/agenda/"
-  kind: page
-  children: []
 - title: IRIS Academy
   target: "/en/iris-academy/"
+  kind: page
+  children: []
+- title: Training
+  target: "/en/training/"
   kind: page
   children: []
 - title: Softwares
