@@ -85,12 +85,12 @@ items:
     target: "/en/products/electromagnetic/"
     kind: page
     children: []
-  - title: Tools
-    target: "/en/products/tools/"
-    kind: page
-    children: []
   - title: Proton Magnetic Resonance
     target: "/en/products/proton-magnetic-resonance/"
+    kind: page
+    children: []
+  - title: Tools
+    target: "/en/products/tools/"
     kind: page
     children: []
 - title: Applications
