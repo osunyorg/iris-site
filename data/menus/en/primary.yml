@@ -85,6 +85,10 @@ items:
         target: "/en/products/induced-polarisation/tipix-3000/"
         kind: page
         children: []
+      - title: VIP 5000
+        target: "/en/products/induced-polarisation/vip-5000/"
+        kind: page
+        children: []
     - title: Receiver
       target: ''
       kind: blank
