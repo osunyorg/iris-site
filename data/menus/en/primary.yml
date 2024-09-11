@@ -108,7 +108,11 @@ items:
     - title: Receiver
       target: ''
       kind: blank
-      children: []
+      children:
+      - title: V-FullWaver
+        target: "/en/products/induced-polarisation/v-fullwaver/"
+        kind: page
+        children: []
   - title: Electromagnetic
     target: "/en/products/electromagnetic/"
     kind: page
