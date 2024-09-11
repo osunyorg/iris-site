@@ -97,6 +97,10 @@ items:
         target: "/en/products/induced-polarisation/vip-10000/"
         kind: page
         children: []
+      - title: TIP 12000
+        target: "/en/products/induced-polarisation/tip-12000/"
+        kind: page
+        children: []
     - title: Receiver
       target: ''
       kind: blank
