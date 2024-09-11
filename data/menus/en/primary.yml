@@ -101,6 +101,10 @@ items:
         target: "/en/products/induced-polarisation/tip-12000/"
         kind: page
         children: []
+      - title: I-FullWaver
+        target: "/en/products/induced-polarisation/i-fullwaver/"
+        kind: page
+        children: []
     - title: Receiver
       target: ''
       kind: blank
