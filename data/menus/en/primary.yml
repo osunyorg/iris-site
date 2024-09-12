@@ -162,7 +162,7 @@ items:
   kind: blank
   children:
   - title: IRIS Academy
-    target: "/en/iris-academy/"
+    target: "/en/projects/iris-academy/"
     kind: page
     children: []
 - title: Training
