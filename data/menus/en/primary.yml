@@ -145,6 +145,10 @@ items:
       target: "/en/products/proton-magnetic-resonance/numis-lite/"
       kind: page
       children: []
+    - title: Numis Poly
+      target: "/en/products/proton-magnetic-resonance/numis-poly/"
+      kind: page
+      children: []
   - title: Tools
     target: "/en/products/tools/"
     kind: page
