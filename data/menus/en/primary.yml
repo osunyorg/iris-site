@@ -113,12 +113,12 @@ items:
         target: "/en/products/induced-polarisation/elrec-lite/"
         kind: page
         children: []
-      - title: V-FullWaver
-        target: "/en/products/induced-polarisation/v-fullwaver/"
-        kind: page
-        children: []
       - title: Elrec Pro Std. / Switch
         target: "/en/products/induced-polarisation/elrec-pro-std-switch/"
+        kind: page
+        children: []
+      - title: V-FullWaver
+        target: "/en/products/induced-polarisation/v-fullwaver/"
         kind: page
         children: []
   - title: Electromagnetic
