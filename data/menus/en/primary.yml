@@ -128,7 +128,11 @@ items:
   - title: Electromagnetic
     target: "/en/products/electromagnetic/"
     kind: page
-    children: []
+    children:
+    - title: Promis 10
+      target: "/en/products/electromagnetic/promis-10/"
+      kind: page
+      children: []
   - title: Proton Magnetic Resonance
     target: "/en/products/proton-magnetic-resonance/"
     kind: page
