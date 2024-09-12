@@ -113,6 +113,10 @@ items:
         target: "/en/products/induced-polarisation/v-fullwaver/"
         kind: page
         children: []
+      - title: Elrec Lite
+        target: "/en/products/induced-polarisation/elrec-lite/"
+        kind: page
+        children: []
   - title: Electromagnetic
     target: "/en/products/electromagnetic/"
     kind: page
