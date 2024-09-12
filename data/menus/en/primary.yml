@@ -106,8 +106,8 @@ items:
         kind: page
         children: []
     - title: Receiver
-      target: ''
-      kind: blank
+      target: "/en/products/induced-polarisation/#receiver"
+      kind: url
       children:
       - title: Elrec Lite
         target: "/en/products/induced-polarisation/elrec-lite/"
