@@ -140,7 +140,11 @@ items:
   - title: Proton Magnetic Resonance
     target: "/en/products/proton-magnetic-resonance/"
     kind: page
-    children: []
+    children:
+    - title: Numis Lite
+      target: "/en/products/proton-magnetic-resonance/numis-lite/"
+      kind: page
+      children: []
   - title: Tools
     target: "/en/products/tools/"
     kind: page
