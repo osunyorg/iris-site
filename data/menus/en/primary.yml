@@ -133,6 +133,10 @@ items:
       target: "/en/products/electromagnetic/promis-10/"
       kind: page
       children: []
+    - title: T-Vlf
+      target: "/en/products/electromagnetic/tvlf-device/"
+      kind: page
+      children: []
   - title: Proton Magnetic Resonance
     target: "/en/products/proton-magnetic-resonance/"
     kind: page
