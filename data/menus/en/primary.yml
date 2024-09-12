@@ -70,8 +70,8 @@ items:
     kind: page
     children:
     - title: Transmitter
-      target: ''
-      kind: blank
+      target: "/en/products/induced-polarisation/#transmitter"
+      kind: url
       children:
       - title: TIP One
         target: "/en/products/induced-polarisation/tip-one/"
