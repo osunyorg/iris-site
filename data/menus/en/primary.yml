@@ -160,11 +160,11 @@ items:
 - title: Support
   target: ''
   kind: blank
-  children: []
-- title: IRIS Academy
-  target: "/en/iris-academy/"
-  kind: page
-  children: []
+  children:
+  - title: IRIS Academy
+    target: "/en/iris-academy/"
+    kind: page
+    children: []
 - title: Training
   target: "/en/training/"
   kind: page
