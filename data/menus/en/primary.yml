@@ -165,6 +165,10 @@ items:
     target: "/en/projects/iris-academy/"
     kind: page
     children: []
+  - title: FAQ and Tips
+    target: "/en/projects/faq-and-tips/"
+    kind: page
+    children: []
 - title: Training
   target: "/en/training/"
   kind: page
