@@ -169,6 +169,10 @@ items:
     target: "/en/projects/faq-and-tips/"
     kind: page
     children: []
+  - title: Rental equipment and accessories
+    target: "/en/projects/rental-equipment-and-accessories/"
+    kind: page
+    children: []
 - title: Training
   target: "/en/training/"
   kind: page
