@@ -1,0 +1,16 @@
+---
+title: Menu principal
+items:
+- title: Actualités
+  target: "/es/actualites/"
+  kind: page
+  children: []
+- title: Agenda
+  target: "/es/agenda/"
+  kind: page
+  children: []
+- title: Équipe
+  target: "/es/equipe/"
+  kind: page
+  children: []
+
