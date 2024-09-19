@@ -1,19 +1,27 @@
-// .page__home
-//     .hero
-//         min-height: 90vh
+
 .button, .btn
-    background: white
-    color: $color-text
     border-radius: $spacing-5
-    padding-left: $spacing-3
-    padding-right: $spacing-3
-    @include icon-site(wave, after, false)
-    @include hover-translate-icon(after)
-    &:hover,
-    &:focus, 
-    &:focus-visible
-        background: $color-text
-        color: var(--color-background)
+
+
+.page__home
+    .hero
+        .container
+            .content
+                .hero-text
+                    .button, .btn
+                        background: white
+                        color: $color-text
+                        border-radius: $spacing-5
+                        padding-left: $spacing-3
+                        padding-right: $spacing-3
+                        @include icon-site(wave, after, false)
+                        @include hover-translate-icon(after)
+                        &:hover,
+                        &:focus, 
+                        &:focus-visible
+                            background: $color-text
+                            color: var(--color-background)        
+
 
 .blocks
     .block-title
@@ -23,6 +31,9 @@
 
 .hero
     margin-bottom: 0
+    .container
+        .content
+            padding-top: 0
 
 
 // .block-files
