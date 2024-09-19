@@ -58,9 +58,9 @@ header_cta:
     
   target: " https://download.iris-instruments.com/Download/Prosys/SetupProsys"
 contents_reading_time:
-  seconds: 29
+  seconds: 40
   text: >-
-    less than a minute
+    1 minute
 contents:
   - kind: block
     template: chapter
@@ -86,25 +86,6 @@ contents:
 
 
   - kind: block
-    template: files
-    title: >-
-      
-    ranks:
-      self: false
-    data:
-      description: >-
-        
-
-      files:
-        - id: "b89a9cd7-57bf-4f46-a748-2b3cbdc88f9c"
-          file: "b89a9cd7-57bf-4f46-a748-2b3cbdc88f9c"
-
-          title: >-
-            PDF
-
-
-
-  - kind: block
     template: links
     title: >-
       Download
@@ -125,6 +106,41 @@ contents:
             https://download.iris-instruments.com/Download/Prosys/SetupProsysIII.exe
 
           external: true
+
+        - title: >-
+            PDF
+
+          description: >-
+            
+
+          url: >-
+            https://download.iris-instruments.com/Documents/Prosys_Gb.pdf
+
+          external: true
+
+
+
+  - kind: block
+    template: timeline
+    title: >-
+      Version change history
+    ranks:
+      self: 2
+      children: 3
+    data:
+      layout: vertical
+      events:
+        - title: >-
+            Version 2.11.5
+
+          text: >-
+            - Fix data download from TIP
+
+        - title: >-
+            Version 2.11.4
+
+          text: >-
+            - Fix order data download from TIP<br>- New parameter DevRhoMax in Filter.ini file for filter max value of Dev. Rho
 
 
 

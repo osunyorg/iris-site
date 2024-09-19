@@ -41,8 +41,4 @@ items:
   target: "/fr/agenda/"
   kind: page
   children: []
-- title: Contact
-  target: "/fr/contact/"
-  kind: page
-  children: []
 
