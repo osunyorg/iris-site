@@ -18,9 +18,6 @@ en:
     posts: /posts/:year-:month-:day-:slug/
     events: /agenda/:year-:month-:day-:slug/
     events_categories: /agenda/:slug/
-    persons: /team/:slug/
-    persons_categories: /team/categories/:slug/
-    authors: /team/:slug/posts/
   taxonomies:
     administrator: administrators
     author: authors
@@ -52,9 +49,6 @@ fr:
     posts: /actualites/:year-:month-:day-:slug/
     events: /agenda/:year-:month-:day-:slug/
     events_categories: /agenda/:slug/
-    persons: /equipe/:slug/
-    persons_categories: /equipe/categories/:slug/
-    authors: /equipe/:slug/actualites/
   taxonomies:
     administrator: administrators
     author: authors
