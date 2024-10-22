@@ -53,20 +53,28 @@ header_cta:
   target: ""
   external: false
 contents_reading_time:
-  seconds: 1
+  seconds: 4
   text: >-
     less than a minute
 contents:
-  - kind: heading
+  - kind: block
+    template: title
     title: >-
       Transmitter
-    slug: "transmitter"
-    position: 1
-    rank: 2
+    slug: >-
+      transmitter
+    ranks:
+      self: 2
+    data:
+      layout: classic
+
+
   - kind: block
     template: pages
     title: >-
       Current regulated transmitter
+    slug: >-
+      current-regulated-transmitter
     ranks:
       self: 3
       children: 4
@@ -104,6 +112,8 @@ contents:
     template: pages
     title: >-
       Standard transmitter
+    slug: >-
+      standard-transmitter
     ranks:
       self: 3
       children: 4
@@ -129,6 +139,8 @@ contents:
     template: pages
     title: >-
       Full Wave Recorder
+    slug: >-
+      full-wave-recorder
     ranks:
       self: 3
       children: 4
@@ -146,17 +158,24 @@ contents:
           external: false
 
 
-
-  - kind: heading
+  - kind: block
+    template: title
     title: >-
       Receiver
-    slug: "receiver"
-    position: 2
-    rank: 2
+    slug: >-
+      receiver
+    ranks:
+      self: 2
+    data:
+      layout: classic
+
+
   - kind: block
     template: pages
     title: >-
       Receiver
+    slug: >-
+      receiver
     ranks:
       self: 3
       children: 4
@@ -186,6 +205,8 @@ contents:
     template: pages
     title: >-
       Full Wave Recorder
+    slug: >-
+      full-wave-recorder
     ranks:
       self: 3
       children: 4
@@ -201,7 +222,6 @@ contents:
           slug: "syscal-r1-plus"
           file: "pages/products/resistivimetres/syscal-r1-plus/_index.html"
           external: false
-
 
 
 

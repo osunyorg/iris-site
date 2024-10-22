@@ -69,19 +69,27 @@ contents_reading_time:
   text: >-
     less than a minute
 contents:
-  - kind: heading
+  - kind: block
+    template: title
     title: >-
       Tools
-    slug: "tools"
-    position: 1
-    rank: 2
+    slug: >-
+      tools
+    ranks:
+      self: 2
+    data:
+      layout: classic
+
+
   - kind: block
     template: pages
     title: >-
-      Tools
+      
+    slug: >-
+      
     ranks:
-      self: 3
-      children: 4
+      self: false
+      children: 3
     data:
       page:
         path: "/en/products/tools/"
@@ -136,16 +144,23 @@ contents:
           external: false
 
 
-
-  - kind: heading
+  - kind: block
+    template: title
     title: >-
       Accessories
-    slug: "accessories"
-    position: 2
-    rank: 2
+    slug: >-
+      accessories
+    ranks:
+      self: 2
+    data:
+      layout: classic
+
+
   - kind: block
     template: pages
     title: >-
+      
+    slug: >-
       
     ranks:
       self: false
@@ -162,7 +177,6 @@ contents:
           slug: "accessories"
           file: "pages/products/tools/accessories/_index.html"
           external: false
-
 
 
 

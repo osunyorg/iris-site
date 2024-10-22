@@ -61,7 +61,7 @@ header_cta:
   target: ""
   external: false
 contents_reading_time:
-  seconds: 25
+  seconds: 26
   text: >-
     less than a minute
 contents:
@@ -69,6 +69,8 @@ contents:
     template: chapter
     title: >-
       TEST BOX for SYSCAL
+    slug: >-
+      test-box-for-syscal
     ranks:
       self: 2
     data:
@@ -91,6 +93,8 @@ contents:
   - kind: block
     template: call_to_action
     title: >-
+      
+    slug: >-
       
     ranks:
       self: false
@@ -117,15 +121,23 @@ contents:
 
 
 
-  - kind: heading
+  - kind: block
+    template: title
     title: >-
       Characteristics
-    slug: "characteristics"
-    position: 1
-    rank: 2
+    slug: >-
+      characteristics
+    ranks:
+      self: 2
+    data:
+      layout: classic
+
+
   - kind: block
     template: datatable
     title: >-
+      
+    slug: >-
       
     ranks:
       self: false
@@ -147,16 +159,23 @@ contents:
 
 
 
-
-  - kind: heading
+  - kind: block
+    template: title
     title: >-
       Documentation
-    slug: "documentation"
-    position: 2
-    rank: 2
+    slug: >-
+      documentation
+    ranks:
+      self: 2
+    data:
+      layout: classic
+
+
   - kind: block
     template: links
     title: >-
+      
+    slug: >-
       
     ranks:
       self: false
@@ -178,7 +197,6 @@ contents:
             https://download.iris-instruments.com/Documents/Test_box_syscal.pdf
 
           external: true
-
 
 
 

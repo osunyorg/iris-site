@@ -60,6 +60,8 @@ contents:
     template: pages
     title: >-
       
+    slug: >-
+      
     ranks:
       self: false
       children: 2
@@ -85,15 +87,23 @@ contents:
           external: false
 
 
-  - kind: heading
+  - kind: block
+    template: title
     title: >-
       Documentation
-    slug: "documentation"
-    position: 1
-    rank: 2
+    slug: >-
+      documentation
+    ranks:
+      self: 2
+    data:
+      layout: classic
+
+
   - kind: block
     template: files
     title: >-
+      
+    slug: >-
       
     ranks:
       self: false
@@ -107,7 +117,6 @@ contents:
 
           title: >-
             Training programs
-
 
 
 
