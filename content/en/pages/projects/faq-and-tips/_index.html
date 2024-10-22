@@ -76,7 +76,7 @@ contents:
             On the importance to use batteries in good state
 
           description: >-
-            The state of the Tx battery used during an acquisition in multi-electrode mode is of paramount importance for the quality of the measurement, and to keep your battery and Syscal in a good shape.<br><br>The state of a battery can partially be given by its voltage [V]. The voltage can be measured with a voltmeter directly plugged on the two terminals of the battery (no-load measurement). This value informs on its charge.  Do never start an acquisition with Tx battery voltage too low (e.g. 11 V).<br>However, fully charged worn batteries can give high voltages [13.5 V] when measured with no-load. If you could measure the battery during the very first tens of milliseconds of the injection, you would see that the on-load measurement of the voltage would be much lower.<br>So, to check your battery state, follow the Tx battery level icon on the right bottom corner of the display screen of your Syscal. If you see strong variation of the voltage during the measurement, your battery is certainly out of order.<br>For customers having new systems, the Tx-Battery measured during the injection (on-load measurement) is saved during the acquisition. If you plot the battery voltage vs the measurement number on Prosys II, you can see the evolution of the battery. A battery in good state will present a voltage starting from 12.5/13 V and decreasing nearly linearly with the measurement down to 11V.<br>A battery which is out of order will show high voltage variations between 12.5V and 9/10 V throughout the measurement. At a certain point, the voltage can fall drastically under 7.5V, where the Syscal stops the measurements and indicate 9999.99A injected currents. If you measure the voltage of this battery not connected to the Syscal (no-load measurement), you could measure up to 12.5 V.<br><br>Be careful to not use a battery which is out of order, as the Syscal starts to reduce the power of injection when the battery is low, you will get a lower signal to noise ratio. Your measurements will be therefore less accurate (especially for IP measurements).<br><br>Second, if you use very bad shape battery, the Syscal will try to extract a constant power from the battery. As the voltage will decrease drastically, the current extracted from the batterry will be increased in compensation. Over long period, these high current could lead to internal overheating that could damage your system.<br><br>One can notice that any resistance between the battery poles and the plugs of the system will add to this internal resistance contributing to a degraded system . So it is obvious that only very good clips and strong and short wires must be used.
+            <p>The state of the Tx battery used during an acquisition in multi-electrode mode is of paramount importance for the quality of the measurement, and to keep your battery and Syscal in a good shape.  The state of a battery can partially be given by its voltage [V]. The voltage can be measured with a voltmeter directly plugged on the two terminals of the battery (no-load measurement). This value informs on its charge.  Do never start an acquisition with Tx battery voltage too low (e.g. 11 V). However, fully charged worn batteries can give high voltages [13.5 V] when measured with no-load. If you could measure the battery during the very first tens of milliseconds of the injection, you would see that the on-load measurement of the voltage would be much lower. So, to check your battery state, follow the Tx battery level icon on the right bottom corner of the display screen of your Syscal. If you see strong variation of the voltage during the measurement, your battery is certainly out of order. For customers having new systems, the Tx-Battery measured during the injection (on-load measurement) is saved during the acquisition. If you plot the battery voltage vs the measurement number on Prosys II, you can see the evolution of the battery. A battery in good state will present a voltage starting from 12.5/13 V and decreasing nearly linearly with the measurement down to 11V. A battery which is out of order will show high voltage variations between 12.5V and 9/10 V throughout the measurement. At a certain point, the voltage can fall drastically under 7.5V, where the Syscal stops the measurements and indicate 9999.99A injected currents. If you measure the voltage of this battery not connected to the Syscal (no-load measurement), you could measure up to 12.5 V.  Be careful to not use a battery which is out of order, as the Syscal starts to reduce the power of injection when the battery is low, you will get a lower signal to noise ratio. Your measurements will be therefore less accurate (especially for IP measurements).  Second, if you use very bad shape battery, the Syscal will try to extract a constant power from the battery. As the voltage will decrease drastically, the current extracted from the batterry will be increased in compensation. Over long period, these high current could lead to internal overheating that could damage your system.  One can notice that any resistance between the battery poles and the plugs of the system will add to this internal resistance contributing to a degraded system . So it is obvious that only very good clips and strong and short wires must be used.</p>
 
 
 
@@ -95,103 +95,103 @@ contents:
             My Syscal does not switch On (only for new or updated versions)
 
           description: >-
-            Check that the emergency red button is not engaged. In that case turn it of one quarter of turn to release it.
+            <p>Check that the emergency red button is not engaged. In that case turn it of one quarter of turn to release it.</p>
 
         - title: >-
             My Syscal switch displays erroneous measurements in multi-electrode mode
 
           description: >-
-            Check the condition of the sockets of the system (Syscal / connecting boxes) and plugs of the multi core cable.<br>- Check that the rubber is not damaged due to arcing between pins for example<br>- Check in the plugs if there are some bent pins<br>- Check in the sockets that some contacts have not been pushed backwards - Dry with water repellant product like WD40 in case of wet conditions.<br>If everything is fine, test the unit in standard mode using 4 individual wires plugged into the front panel (using the AMNB Wenner array for example) and enter a large number of stacks “20” to control the stability of the measurement.<br>- Control the Rs check,<br>- Control the Iab<br>- Control the Vmn<br>- Control the stability of the measurement (“Q” factor).<br>This allows to control if the transmission part works properly and to determine if the problem is linked to the multi-electrodes part.
+            <p>Check the condition of the sockets of the system (Syscal / connecting boxes) and plugs of the multi core cable. - Check that the rubber is not damaged due to arcing between pins for example - Check in the plugs if there are some bent pins - Check in the sockets that some contacts have not been pushed backwards - Dry with water repellant product like WD40 in case of wet conditions. If everything is fine, test the unit in standard mode using 4 individual wires plugged into the front panel (using the AMNB Wenner array for example) and enter a large number of stacks “20” to control the stability of the measurement. - Control the Rs check, - Control the Iab - Control the Vmn - Control the stability of the measurement (“Q” factor). This allows to control if the transmission part works properly and to determine if the problem is linked to the multi-electrodes part.</p>
 
         - title: >-
             The resistivity measured with my Syscal are 2 times higher/lower than the true resistivity.
 
           description: >-
-            This generally means that the unit has been reinitialized with an erroneous input range: reset it anew, following the procedure we can send to you. The control can be easily done plugging a 1.5V cell on the M and N sockets and by checking with the “Monitor” function.
+            <p>This generally means that the unit has been reinitialized with an erroneous input range: reset it anew, following the procedure we can send to you. The control can be easily done plugging a 1.5V cell on the M and N sockets and by checking with the “Monitor” function.</p>
 
         - title: >-
             How to measure using a non-conventional array in standard mode with my Syscal?
 
           description: >-
-            - Select “Poly Dipole” or “Poly-Pole” array<br>- Enter XCa / XP1 / A-B distance / P1-P2 distance<br>- Select “Modify”, and change the position of each potential electrode
+            <p>- Select “Poly Dipole” or “Poly-Pole” array - Enter XCa / XP1 / A-B distance / P1-P2 distance - Select “Modify”, and change the position of each potential electrode</p>
 
         - title: >-
             I cannot inject with the external converter associated to my Syscal (DC 250W or AC 1200W)
 
           description: >-
-            In case of problem of injection in that configuration connect an external 12V battery directly to the Syscal and check if the injection is Ok or not to determine if the problem is linked to the converter of to the Syscal. Check also with a voltmeter the output voltage of the converter for the different voltage ranges.
+            <p>In case of problem of injection in that configuration connect an external 12V battery directly to the Syscal and check if the injection is Ok or not to determine if the problem is linked to the converter of to the Syscal. Check also with a voltmeter the output voltage of the converter for the different voltage ranges.</p>
 
         - title: >-
             I cannot inject with my Syscal (for recent and updated Syscal)
 
           description: >-
-            Input protection fuse and spare fuse are present in the unit. Check they state and replace them if necessary (IRIS can send the procedure on request). The maximal input voltage for the external battery is 20V. Use 4mm section wires to have a low resistance and avoid overheating.<br>In case of “Tx low batt” or “overheat” messages, a loosen connection of the ribbon cable can be the reason. Sometimes, a re-initialization of the unit can solve the trouble (procedure sent on request).
+            <p>Input protection fuse and spare fuse are present in the unit. Check they state and replace them if necessary (IRIS can send the procedure on request). The maximal input voltage for the external battery is 20V. Use 4mm section wires to have a low resistance and avoid overheating. In case of “Tx low batt” or “overheat” messages, a loosen connection of the ribbon cable can be the reason. Sometimes, a re-initialization of the unit can solve the trouble (procedure sent on request).</p>
 
         - title: >-
             I cannot communicate with the Syscal using communication cables (for recent or updated Syscal)
 
           description: >-
-            For communication, you can use the direct USB port or the serial port, but not both simultaneously.<br>Install correctly the USB driver (refering to the FAQ : How to install properly the IRIS Instruments USB driver?). In all the IRIS Instruments software, select "Communication" -&gt; "Communication port" -&gt; "USB" to communicate through your USB port.<br>For the USB communication with IRIS units: The Serial / USB adapters that can be found in the market are generally not compatible. We recommend to use the USB cable / driver developed by IRIS Instruments.
+            <p>For communication, you can use the direct USB port or the serial port, but not both simultaneously. Install correctly the USB driver (refering to the FAQ : How to install properly the IRIS Instruments USB driver?). In all the IRIS Instruments software, select "Communication" -&gt; "Communication port" -&gt; "USB" to communicate through your USB port. For the USB communication with IRIS units: The Serial / USB adapters that can be found in the market are generally not compatible. We recommend to use the USB cable / driver developed by IRIS Instruments.</p>
 
         - title: >-
             I cannot perfom multi-electrode measurement during dynamic acquisition with my Syscal
 
           description: >-
-            The dynamic acquisition using Sysmar with the Syscal Pro or with the Syscal Pro Deep Marine is performed with a 13 wire cable which is directly connected to the front panel (ABP1…P11). The measurements are performed in “standard” mode and cannot be performed in “automatic sequence mode”.
+            <p>The dynamic acquisition using Sysmar with the Syscal Pro or with the Syscal Pro Deep Marine is performed with a 13 wire cable which is directly connected to the front panel (ABP1…P11). The measurements are performed in “standard” mode and cannot be performed in “automatic sequence mode”.</p>
 
         - title: >-
             How to perform Rs check of specific electrodes with my Syscal
 
           description: >-
-            To check the grounding resistance of some specific electrodes, select “System/Check switch / Check several electrodes”.
+            <p>To check the grounding resistance of some specific electrodes, select “System/Check switch / Check several electrodes”.</p>
 
         - title: >-
             How to use my Syscal Pro as a simple receiver (just like an Elrec)?
 
           description: >-
-            The “Rx only” mode (mode using the Syscal Pro as just a receiver) can be implemented into your unit. This update requires sending the unit to IRIS Instruments. In that mode you need to use an external transmitter (such as a VIP) and the Syscal Pro will synchronize automatically with the transmission signal.
+            <p>The “Rx only” mode (mode using the Syscal Pro as just a receiver) can be implemented into your unit. This update requires sending the unit to IRIS Instruments. In that mode you need to use an external transmitter (such as a VIP) and the Syscal Pro will synchronize automatically with the transmission signal.</p>
 
         - title: >-
             I want to test my instrument and cables by myself
 
           description: >-
-            Test of units and multicore cables can be done thanks to test boxes specifically developed by IRIS Instruments (resistance boxes, isolation boxes, etc.). Contact IRIS Instruments for more information.
+            <p>Test of units and multicore cables can be done thanks to test boxes specifically developed by IRIS Instruments (resistance boxes, isolation boxes, etc.). Contact IRIS Instruments for more information.</p>
 
         - title: >-
             I have a problem with my internal battery
 
           description: >-
-            In case of trouble with the internal battery supplying, control the value of this battery displayed by the « Batt » key when the charger is plugged on. This allow to control if the problem is due to the charger or to the battery itself. Internal batteries have to be regularly replaced (every about 5 years for a normal use).
+            <p>In case of trouble with the internal battery supplying, control the value of this battery displayed by the « Batt » key when the charger is plugged on. This allow to control if the problem is due to the charger or to the battery itself. Internal batteries have to be regularly replaced (every about 5 years for a normal use).</p>
 
         - title: >-
             How is computed the quality factor Q?
 
           description: >-
-            The quality factor uses the formulae of the standard deviation of the Vmn/Iab ratio measured during the stacking process. After each stack, an average value of the V/I is computed (by the different samples measured) and the new deviation is then computed from the beginning of the measurement (for information data sampling is 10 ms).<br>So for example, after 3 stacks, the unit computes the average value from the beginning of the measurement: A3 - Then, at this stage, the standard deviation is computed with A1 (average value after stack1), A2 (average value after stack2) and A3 (average value after stack3).<br>And, the information is then given in %, as this is the coefficient of variation 100 x (standard deviation(rho)/mean(rho)) which is finally computed and displayed.
+            <p>The quality factor uses the formulae of the standard deviation of the Vmn/Iab ratio measured during the stacking process. After each stack, an average value of the V/I is computed (by the different samples measured) and the new deviation is then computed from the beginning of the measurement (for information data sampling is 10 ms). So for example, after 3 stacks, the unit computes the average value from the beginning of the measurement: A3 - Then, at this stage, the standard deviation is computed with A1 (average value after stack1), A2 (average value after stack2) and A3 (average value after stack3). And, the information is then given in %, as this is the coefficient of variation 100 x (standard deviation(rho)/mean(rho)) which is finally computed and displayed.</p>
 
         - title: >-
             How is compensated the Sp during the measurement?
 
           description: >-
-            During measurement the Sp parameter (Spontaneous Polarization) is continuously measured during acquisition for an automatic measurement and compensation.<br>This is measured thanks to alternating pulses and is computed by the Vp+ and Vp- values during the stacking. This allows an automatic measurement and compensation of the linear drift with time.<br>Sp = (Vp+ +2 Vp- + Vp+)/4<br>Vp = (Vp+ -2 Vp- + Vp+)/4
+            <p>During measurement the Sp parameter (Spontaneous Polarization) is continuously measured during acquisition for an automatic measurement and compensation. This is measured thanks to alternating pulses and is computed by the Vp+ and Vp- values during the stacking. This allows an automatic measurement and compensation of the linear drift with time. Sp = (Vp+ +2 Vp- + Vp+)/4 Vp = (Vp+ -2 Vp- + Vp+)/4</p>
 
         - title: >-
             My Vp measurement are sometimes positives, sometime negatives
 
           description: >-
-            The sign of the Vp parameter depends on the array. Tt can be negative like for dipole -dipole array or positive like for Wenner array (the sign is in relation to the MN dipole position in regards to the AB dipole position)
+            <p>The sign of the Vp parameter depends on the array. Tt can be negative like for dipole -dipole array or positive like for Wenner array (the sign is in relation to the MN dipole position in regards to the AB dipole position)</p>
 
         - title: >-
             How to re-initialize my Syscal Kid
 
           description: >-
-            To re-initialize the Syscal Kid:<br>- Switch off the unit<br>- Press simultaneously the right and left arrow keys<br>- Switch on the unit keeping the keys pressed<br>- The display will be: "FORMAT" NO or YES<br>- Release the keys<br>- Choose "Yes" and validate by ENTER<br>- The Syscal Kid will start automatically after a while.
+            <p>To re-initialize the Syscal Kid: - Switch off the unit - Press simultaneously the right and left arrow keys - Switch on the unit keeping the keys pressed - The display will be: "FORMAT" NO or YES - Release the keys - Choose "Yes" and validate by ENTER - The Syscal Kid will start automatically after a while.</p>
 
         - title: >-
             Which GPS to use with my Syscal?
 
           description: >-
-            The GPS compatible with our units are GPS using the NMEA 0183 norm.
+            <p>The GPS compatible with our units are GPS using the NMEA 0183 norm.</p>
 
 
 
@@ -239,55 +239,55 @@ contents:
             My IRIS software is in DEMO mode
 
           description: >-
-            If DEMO version is displayed when opening an IRIS software instead of Full Version, the software has a possible problem when trying to reach the Windows Register. Check that the PC has the full administrator rights.
+            <p>If DEMO version is displayed when opening an IRIS software instead of Full Version, the software has a possible problem when trying to reach the Windows Register. Check that the PC has the full administrator rights.</p>
 
         - title: >-
             Are IRIS Instruments software compatible with all Windows version?
 
           description: >-
-            IRIS software is compatible from Windows Xp for 32 bits or 64 bits (excepted Comsys SP compatible with 32 bits only).
+            <p>IRIS software is compatible from Windows Xp for 32 bits or 64 bits (excepted Comsys SP compatible with 32 bits only).</p>
 
         - title: >-
             How to install properly the IRIS Instruments USB driver?
 
           description: >-
-            Plug the USB cable on your Windows computer. Windows should automatically install the driver. After installing the USB driver, check that the red cross of the USB icon in the master window of the software (Prosys / Electre…) disappears when the USB cable is plugged into the PC port. If not, go the Windows device manager, select the USB port on which the cable is plugged and try to update manually the driver. Finally, if the driver is not installed, you can download it directly on the FTDI website selecting the appropriate operating system.
+            <p>Plug the USB cable on your Windows computer. Windows should automatically install the driver. After installing the USB driver, check that the red cross of the USB icon in the master window of the software (Prosys / Electre…) disappears when the USB cable is plugged into the PC port. If not, go the Windows device manager, select the USB port on which the cable is plugged and try to update manually the driver. Finally, if the driver is not installed, you can download it directly on the FTDI website selecting the appropriate operating system.</p>
 
         - title: >-
             My IRIS Instruments software is correctly installed but does not work
 
           description: >-
-            Our software is designed to work optimally with the “.” (dot) defined as decimal symbol in Windows (instead of the comma). This can be changed in the Windows “Configuration panel / Regional parameters/Modify format dates and hours / Additional parameters”.
+            <p>Our software is designed to work optimally with the “.” (dot) defined as decimal symbol in Windows (instead of the comma). This can be changed in the Windows “Configuration panel / Regional parameters/Modify format dates and hours / Additional parameters”.</p>
 
         - title: >-
             In Prosys, my injected currents equal 99999 mA
 
           description: >-
-            In Prosys II software, I = 99999 mA means too low Tx battery value. The battery has to be fully charged and not too old (13V min. before running a measurement). Use an external Tx battery during multi-electrode measurement.
+            <p>In Prosys II software, I = 99999 mA means too low Tx battery value. The battery has to be fully charged and not too old (13V min. before running a measurement). Use an external Tx battery during multi-electrode measurement.</p>
 
         - title: >-
             In Prosys, my reception signal VP equals 99999 mV
 
           description: >-
-            In Prosys II software, V = 99999 mV means too high grounding resistance values. Improve the electrodes-ground contact. For that, user longer electrodes, push them entirely in the ground (verifying that the ratio length of electrode vs electrode spacing is lower than 0.1), and pour salted water on each electrode).
+            <p>In Prosys II software, V = 99999 mV means too high grounding resistance values. Improve the electrodes-ground contact. For that, user longer electrodes, push them entirely in the ground (verifying that the ratio length of electrode vs electrode spacing is lower than 0.1), and pour salted water on each electrode).</p>
 
         - title: >-
             How do I change electrode positions of a multi-electrode measurement in Prosys?
 
           description: >-
-            To modify the electrode position or the spacing, go to the « Processing | modify spacing » function to modify the spacing between electrodes in case it is different from the one defined in the sequence.
+            <p>To modify the electrode position or the spacing, go to the « Processing | modify spacing » function to modify the spacing between electrodes in case it is different from the one defined in the sequence.</p>
 
         - title: >-
             Electre II display a message about the “.ele” file
 
           description: >-
-            The message about the “ele” file displayed in Electre II is just a warning indicating that the “ele” file (which is automatically created while the sequence uploading into the unit), will be required for data downloading.<br>So if you upload the sequence and download the data with the same PC this is automatic - if not, copy this “ele” file of your sequence (present in the directory “Electre II / syscal”) into a directory of the PC used for data download).
+            <p>The message about the “ele” file displayed in Electre II is just a warning indicating that the “ele” file (which is automatically created while the sequence uploading into the unit), will be required for data downloading. So if you upload the sequence and download the data with the same PC this is automatic - if not, copy this “ele” file of your sequence (present in the directory “Electre II / syscal”) into a directory of the PC used for data download).</p>
 
         - title: >-
             RES2DINV filters my data when loading a .dat file
 
           description: >-
-            To remove this, change the cutoff factor in the RES2DINV options. Select “0” (option reached by the “Change settings / Data/Display selection” menu). If this parameter is higher than 0, some data can be filtered automatically by the software (whereas the filtering has to be done before exporting the data, by Prosys II).
+            <p>To remove this, change the cutoff factor in the RES2DINV options. Select “0” (option reached by the “Change settings / Data/Display selection” menu). If this parameter is higher than 0, some data can be filtered automatically by the software (whereas the filtering has to be done before exporting the data, by Prosys II).</p>
 
 
 
@@ -342,7 +342,7 @@ contents:
             Cable reel
 
           description: >-
-            Always try to minimize the length of the cable used between the transmitter and the electrode of injection and unroll the entire cable reel before injecting. In any case, be aware that:<br><br>- A part of the total power (PT) sent by the transmitter is injected in the soil (PI) and another part is always dissipated in the cables (PD) so that PT=PI+PD where PI=RC I² and PD=r I² (I being the current injected, RC the contact resistance of the two injection electrodes and r the resistance of the cable).<br>The power injected in the soil will therefore be reduced by the resistance of the cable as PT is limited (PI=PT-r I²). As an example, if I=5A and r=25 Ohm (corresponding to 675 m of cable), a transmitter that provide 3000W, will be able to inject 2375W in the soil. People should therefore always minimize the cable resistance (minimize length and/or maximize cable diameter and/or double the cable).<br><br>- The inductance created by coiled cable prevent from a good current regulation in current regulated transmitters. Indeed, the inductance opposes the current variation. Therefore, at each pulse, the transmitter has to counter balance the effect of the inductance, possibly resulting in damages in the device.<br><br>- Moreover, the heat due to the Joule effect in the cable is weakly dissipated so that keeping the cable coiled can lead to melt the cable.
+            <p>Always try to minimize the length of the cable used between the transmitter and the electrode of injection and unroll the entire cable reel before injecting. In any case, be aware that:  - A part of the total power (PT) sent by the transmitter is injected in the soil (PI) and another part is always dissipated in the cables (PD) so that PT=PI+PD where PI=RC I² and PD=r I² (I being the current injected, RC the contact resistance of the two injection electrodes and r the resistance of the cable). The power injected in the soil will therefore be reduced by the resistance of the cable as PT is limited (PI=PT-r I²). As an example, if I=5A and r=25 Ohm (corresponding to 675 m of cable), a transmitter that provide 3000W, will be able to inject 2375W in the soil. People should therefore always minimize the cable resistance (minimize length and/or maximize cable diameter and/or double the cable).  - The inductance created by coiled cable prevent from a good current regulation in current regulated transmitters. Indeed, the inductance opposes the current variation. Therefore, at each pulse, the transmitter has to counter balance the effect of the inductance, possibly resulting in damages in the device.  - Moreover, the heat due to the Joule effect in the cable is weakly dissipated so that keeping the cable coiled can lead to melt the cable.</p>
 
 
 
@@ -361,19 +361,19 @@ contents:
             Which motor generator to use with my VIP?
 
           description: >-
-            For the VIP transmitters, a good automatic voltage regulation is necessary to be able to deliver the power requested by the VIP. A power at minimum twice the power of the VIP is required (e.g. 20 KVA for the VIP 10000).<br>For The VIP 4000: Single phase generator with 8 kVA of full power.<br>For VIP 5000 / VIP 10000: three phases generator to be able to get the full power (10 KVA for VIP 5000 and 20 KVA for VIP 10 000).<br>The generator must deliver 220V between phases (windings of the 220V mounted in star instead of triangle).<br>Be aware that the power announced for the motor generator are given at sea level. If you plan to work at altitude, take into account that a motor generator will provide less power.
+            <p>For the VIP transmitters, a good automatic voltage regulation is necessary to be able to deliver the power requested by the VIP. A power at minimum twice the power of the VIP is required (e.g. 20 KVA for the VIP 10000). For The VIP 4000: Single phase generator with 8 kVA of full power. For VIP 5000 / VIP 10000: three phases generator to be able to get the full power (10 KVA for VIP 5000 and 20 KVA for VIP 10 000). The generator must deliver 220V between phases (windings of the 220V mounted in star instead of triangle). Be aware that the power announced for the motor generator are given at sea level. If you plan to work at altitude, take into account that a motor generator will provide less power.</p>
 
         - title: >-
             My VIP cannot inject
 
           description: >-
-            First check the output of the voltage and the input voltage on the galvanometer of the VIP. It must be around 220V and quite stable during the injection (between 200V et 240V).<br>For the VIP 10000, the circuit breaker of the Generator (type HONDA EP 20000 TE) may switched On at the very first start of the system.
+            <p>First check the output of the voltage and the input voltage on the galvanometer of the VIP. It must be around 220V and quite stable during the injection (between 200V et 240V). For the VIP 10000, the circuit breaker of the Generator (type HONDA EP 20000 TE) may switched On at the very first start of the system.</p>
 
         - title: >-
             How to use optimally my VIP?
 
           description: >-
-            A relatively stable grounding resistance is required for a good operating of the VIP transmitter. If not some error messages can appear (only due to that un-stability).<br>Press several times the R key to check the stability of the resistance before injection and check it also during injection.<br>During the setup, unroll totally your cables and avoid connection with tape between cables.
+            <p>A relatively stable grounding resistance is required for a good operating of the VIP transmitter. If not some error messages can appear (only due to that un-stability). Press several times the R key to check the stability of the resistance before injection and check it also during injection. During the setup, unroll totally your cables and avoid connection with tape between cables.</p>
 
 
 
@@ -421,25 +421,25 @@ contents:
             My IRIS software is in DEMO mode
 
           description: >-
-            If DEMO version is displayed when opening an IRIS software instead of Full Version, the software has a possible problem when trying to reach the Windows Register. Check that the PC has the full administrator rights.
+            <p>If DEMO version is displayed when opening an IRIS software instead of Full Version, the software has a possible problem when trying to reach the Windows Register. Check that the PC has the full administrator rights.</p>
 
         - title: >-
             Are IRIS Instruments software compatible with all Windows version?
 
           description: >-
-            IRIS software is compatible from Windows Xp for 32 bits or 64 bits (excepted Comsys SP compatible with 32 bits only).
+            <p>IRIS software is compatible from Windows Xp for 32 bits or 64 bits (excepted Comsys SP compatible with 32 bits only).</p>
 
         - title: >-
             How to install properly the IRIS Instruments USB driver?
 
           description: >-
-            Plug the USB cable on your Windows computer. Windows should automatically install the driver. After installing the USB driver, check that the red cross of the USB icon in the master window of the software (Prosys / Electre…) disappears when the USB cable is plugged into the PC port. If not, go the Windows device manager, select the USB port on which the cable is plugged and try to update manually the driver. Finally, if the driver is not installed, you can download it directly on the FTDI website selecting the appropriate operating system.
+            <p>Plug the USB cable on your Windows computer. Windows should automatically install the driver. After installing the USB driver, check that the red cross of the USB icon in the master window of the software (Prosys / Electre…) disappears when the USB cable is plugged into the PC port. If not, go the Windows device manager, select the USB port on which the cable is plugged and try to update manually the driver. Finally, if the driver is not installed, you can download it directly on the FTDI website selecting the appropriate operating system.</p>
 
         - title: >-
             My IRIS Instruments software is correctly installed but does not work
 
           description: >-
-            Our software is designed to work optimally with the “.” (dot) defined as decimal symbol in Windows (instead of the comma). This can be changed in the Windows “Configuration panel / Regional parameters/Modify format dates and hours / Additional parameters”.
+            <p>Our software is designed to work optimally with the “.” (dot) defined as decimal symbol in Windows (instead of the comma). This can be changed in the Windows “Configuration panel / Regional parameters/Modify format dates and hours / Additional parameters”.</p>
 
 
 
@@ -494,25 +494,25 @@ contents:
             My IRIS software is in DEMO mode
 
           description: >-
-            If DEMO version is displayed when opening an IRIS software instead of Full Version, the software has a possible problem when trying to reach the Windows Register. Check that the PC has the full administrator rights.
+            <p>If DEMO version is displayed when opening an IRIS software instead of Full Version, the software has a possible problem when trying to reach the Windows Register. Check that the PC has the full administrator rights.</p>
 
         - title: >-
             Are IRIS Instruments software compatible with all Windows version?
 
           description: >-
-            IRIS software is compatible from Windows Xp for 32 bits or 64 bits (excepted Comsys SP compatible with 32 bits only).
+            <p>IRIS software is compatible from Windows Xp for 32 bits or 64 bits (excepted Comsys SP compatible with 32 bits only).</p>
 
         - title: >-
             How to install properly the IRIS Instruments USB driver?
 
           description: >-
-            Plug the USB cable on your Windows computer. Windows should automatically install the driver. After installing the USB driver, check that the red cross of the USB icon in the master window of the software (Prosys / Electre…) disappears when the USB cable is plugged into the PC port. If not, go the Windows device manager, select the USB port on which the cable is plugged and try to update manually the driver. Finally, if the driver is not installed, you can download it directly on the FTDI website selecting the appropriate operating system.
+            <p>Plug the USB cable on your Windows computer. Windows should automatically install the driver. After installing the USB driver, check that the red cross of the USB icon in the master window of the software (Prosys / Electre…) disappears when the USB cable is plugged into the PC port. If not, go the Windows device manager, select the USB port on which the cable is plugged and try to update manually the driver. Finally, if the driver is not installed, you can download it directly on the FTDI website selecting the appropriate operating system.</p>
 
         - title: >-
             My IRIS Instruments software is correctly installed but does not work
 
           description: >-
-            Our software is designed to work optimally with the “.” (dot) defined as decimal symbol in Windows (instead of the comma). This can be changed in the Windows “Configuration panel / Regional parameters/Modify format dates and hours / Additional parameters”.
+            <p>Our software is designed to work optimally with the “.” (dot) defined as decimal symbol in Windows (instead of the comma). This can be changed in the Windows “Configuration panel / Regional parameters/Modify format dates and hours / Additional parameters”.</p>
 
 
 
@@ -567,25 +567,25 @@ contents:
             My IRIS software is in DEMO mode
 
           description: >-
-            If DEMO version is displayed when opening an IRIS software instead of Full Version, the software has a possible problem when trying to reach the Windows Register. Check that the PC has the full administrator rights.
+            <p>If DEMO version is displayed when opening an IRIS software instead of Full Version, the software has a possible problem when trying to reach the Windows Register. Check that the PC has the full administrator rights.</p>
 
         - title: >-
             Are IRIS Instruments software compatible with all Windows version?
 
           description: >-
-            IRIS software is compatible from Windows Xp for 32 bits or 64 bits (excepted Comsys SP compatible with 32 bits only).
+            <p>IRIS software is compatible from Windows Xp for 32 bits or 64 bits (excepted Comsys SP compatible with 32 bits only).</p>
 
         - title: >-
             How to install properly the IRIS Instruments USB driver?
 
           description: >-
-            Plug the USB cable on your Windows computer. Windows should automatically install the driver. After installing the USB driver, check that the red cross of the USB icon in the master window of the software (Prosys / Electre…) disappears when the USB cable is plugged into the PC port. If not, go the Windows device manager, select the USB port on which the cable is plugged and try to update manually the driver. Finally, if the driver is not installed, you can download it directly on the FTDI website selecting the appropriate operating system.
+            <p>Plug the USB cable on your Windows computer. Windows should automatically install the driver. After installing the USB driver, check that the red cross of the USB icon in the master window of the software (Prosys / Electre…) disappears when the USB cable is plugged into the PC port. If not, go the Windows device manager, select the USB port on which the cable is plugged and try to update manually the driver. Finally, if the driver is not installed, you can download it directly on the FTDI website selecting the appropriate operating system.</p>
 
         - title: >-
             My IRIS Instruments software is correctly installed but does not work
 
           description: >-
-            Our software is designed to work optimally with the “.” (dot) defined as decimal symbol in Windows (instead of the comma). This can be changed in the Windows “Configuration panel / Regional parameters/Modify format dates and hours / Additional parameters”.
+            <p>Our software is designed to work optimally with the “.” (dot) defined as decimal symbol in Windows (instead of the comma). This can be changed in the Windows “Configuration panel / Regional parameters/Modify format dates and hours / Additional parameters”.</p>
 
 
 
