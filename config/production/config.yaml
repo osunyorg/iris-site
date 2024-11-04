@@ -3,7 +3,7 @@
 baseURL: https://irisinstruments.netlify.app
 
 ## LANGUAGE
-defaultContentLanguage: fr
+defaultContentLanguage: en
 defaultContentLanguageInSubdir: true
 
 ## CACHE
