@@ -18,51 +18,51 @@ items:
       kind: page
       children:
       - title: Syscal Kid Switch
-        target: "/en/products/resistivimetres/syscal-r1-plus/"
+        target: "/en/products/resistivimetres/syscal-kid/"
         kind: page
         children: []
       - title: Syscal Kid
-        target: "/en/products/resistivimetres/syscal-r1-plus/"
+        target: "/en/products/resistivimetres/syscal-kid/"
         kind: page
         children: []
       - title: Syscal Junior Switch
-        target: "/en/products/resistivimetres/syscal-r1-plus/"
+        target: "/en/products/resistivimetres/syscal-kid/"
         kind: page
         children: []
       - title: Syscal Junior
-        target: "/en/products/resistivimetres/syscal-r1-plus/"
+        target: "/en/products/resistivimetres/syscal-kid/"
         kind: page
         children: []
       - title: Syscal R1 Plus Switch
-        target: "/en/products/resistivimetres/syscal-r1-plus/"
+        target: "/en/products/resistivimetres/syscal-kid/"
         kind: page
         children: []
       - title: Syscal R1 Plus
-        target: "/en/products/resistivimetres/syscal-r1-plus/"
+        target: "/en/products/resistivimetres/syscal-kid/"
         kind: page
         children: []
       - title: Syscal Pro Switch
-        target: "/en/products/resistivimetres/syscal-r1-plus/"
+        target: "/en/products/resistivimetres/syscal-kid/"
         kind: page
         children: []
       - title: Syscal Pro
-        target: "/en/products/resistivimetres/syscal-r1-plus/"
+        target: "/en/products/resistivimetres/syscal-kid/"
         kind: page
         children: []
       - title: Syscal R2
-        target: "/en/products/resistivimetres/syscal-r1-plus/"
+        target: "/en/products/resistivimetres/syscal-kid/"
         kind: page
         children: []
       - title: Converter
-        target: "/en/products/resistivimetres/syscal-r1-plus/"
+        target: "/en/products/resistivimetres/syscal-kid/"
         kind: page
         children: []
       - title: Syscal Deep Marine
-        target: "/en/products/resistivimetres/syscal-r1-plus/"
+        target: "/en/products/resistivimetres/syscal-kid/"
         kind: page
         children: []
       - title: Syscal Monitoring Unit (SMU)
-        target: "/en/products/resistivimetres/syscal-r1-plus/"
+        target: "/en/products/resistivimetres/syscal-kid/"
         kind: page
         children: []
   - title: Induced Polarisation
@@ -74,35 +74,35 @@ items:
       kind: blank
       children:
       - title: TIP One
-        target: "/en/products/resistivimetres/syscal-r1-plus/"
+        target: "/en/products/resistivimetres/syscal-kid/"
         kind: page
         children: []
       - title: Tipix 2200
-        target: "/en/products/resistivimetres/syscal-r1-plus/"
+        target: "/en/products/resistivimetres/syscal-kid/"
         kind: page
         children: []
       - title: Tipix 3000
-        target: "/en/products/resistivimetres/syscal-r1-plus/"
+        target: "/en/products/resistivimetres/syscal-kid/"
         kind: page
         children: []
       - title: VIP 5000
-        target: "/en/products/resistivimetres/syscal-r1-plus/"
+        target: "/en/products/resistivimetres/syscal-kid/"
         kind: page
         children: []
       - title: TIP 6000
-        target: "/en/products/resistivimetres/syscal-r1-plus/"
+        target: "/en/products/resistivimetres/syscal-kid/"
         kind: page
         children: []
       - title: VIP 10000
-        target: "/en/products/resistivimetres/syscal-r1-plus/"
+        target: "/en/products/resistivimetres/syscal-kid/"
         kind: page
         children: []
       - title: TIP 12000
-        target: "/en/products/resistivimetres/syscal-r1-plus/"
+        target: "/en/products/resistivimetres/syscal-kid/"
         kind: page
         children: []
       - title: I-FullWaver
-        target: "/en/products/resistivimetres/syscal-r1-plus/"
+        target: "/en/products/resistivimetres/syscal-kid/"
         kind: page
         children: []
     - title: Receiver
@@ -110,19 +110,19 @@ items:
       kind: blank
       children:
       - title: Elrec Lite
-        target: "/en/products/resistivimetres/syscal-r1-plus/"
+        target: "/en/products/resistivimetres/syscal-kid/"
         kind: page
         children: []
       - title: Elrec Pro Std. / Switch
-        target: "/en/products/resistivimetres/syscal-r1-plus/"
+        target: "/en/products/resistivimetres/syscal-kid/"
         kind: page
         children: []
       - title: Elrec Terra Std. / Switch
-        target: "/en/products/resistivimetres/syscal-r1-plus/"
+        target: "/en/products/resistivimetres/syscal-kid/"
         kind: page
         children: []
       - title: V-FullWaver
-        target: "/en/products/resistivimetres/syscal-r1-plus/"
+        target: "/en/products/resistivimetres/syscal-kid/"
         kind: page
         children: []
   - title: Electromagnetic
@@ -130,11 +130,11 @@ items:
     kind: page
     children:
     - title: Promis 10
-      target: "/en/products/resistivimetres/syscal-r1-plus/"
+      target: "/en/products/resistivimetres/syscal-kid/"
       kind: page
       children: []
     - title: T-Vlf
-      target: "/en/products/resistivimetres/syscal-r1-plus/"
+      target: "/en/products/resistivimetres/syscal-kid/"
       kind: page
       children: []
   - title: Proton Magnetic Resonance
@@ -142,11 +142,11 @@ items:
     kind: page
     children:
     - title: Numis Lite
-      target: "/en/products/resistivimetres/syscal-r1-plus/"
+      target: "/en/products/resistivimetres/syscal-kid/"
       kind: page
       children: []
     - title: Numis Poly
-      target: "/en/products/resistivimetres/syscal-r1-plus/"
+      target: "/en/products/resistivimetres/syscal-kid/"
       kind: page
       children: []
   - title: Tools
