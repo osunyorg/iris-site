@@ -26,15 +26,15 @@ items:
         kind: page
         children: []
       - title: Syscal Junior Switch
-        target: "/en/products/resistivimetres/syscal-kid/"
+        target: "/en/products/resistivimetres/syscal-junior-switch/"
         kind: page
         children: []
       - title: Syscal Junior
-        target: "/en/products/resistivimetres/syscal-kid/"
+        target: "/en/products/resistivimetres/syscal-junior/"
         kind: page
         children: []
       - title: Syscal R1 Plus Switch
-        target: "/en/products/resistivimetres/syscal-kid/"
+        target: "/en/products/resistivimetres/syscal-r1-plus-switch/"
         kind: page
         children: []
       - title: Syscal R1 Plus
