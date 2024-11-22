@@ -110,19 +110,19 @@ items:
       kind: blank
       children:
       - title: Elrec Lite
-        target: "/en/products/resistivimetres/syscal-kid/"
+        target: "/en/products/induced-polarisation/elrec-lite/"
         kind: page
         children: []
       - title: Elrec Pro Std. / Switch
-        target: "/en/products/resistivimetres/syscal-kid/"
+        target: "/en/products/induced-polarisation/elrec-pro-std-switch/"
         kind: page
         children: []
       - title: Elrec Terra Std. / Switch
-        target: "/en/products/resistivimetres/syscal-kid/"
+        target: "/en/products/induced-polarisation/elrec-terra-std-switch/"
         kind: page
         children: []
       - title: V-FullWaver
-        target: "/en/products/resistivimetres/syscal-kid/"
+        target: "/en/products/induced-polarisation/v-fullwaver/"
         kind: page
         children: []
   - title: Electromagnetic
@@ -130,11 +130,11 @@ items:
     kind: page
     children:
     - title: Promis 10
-      target: "/en/products/resistivimetres/syscal-kid/"
+      target: "/en/products/electromagnetic/promis-10/"
       kind: page
       children: []
     - title: T-Vlf
-      target: "/en/products/resistivimetres/syscal-kid/"
+      target: "/en/products/electromagnetic/t-vlf/"
       kind: page
       children: []
   - title: Proton Magnetic Resonance
@@ -142,11 +142,11 @@ items:
     kind: page
     children:
     - title: Numis Lite
-      target: "/en/products/resistivimetres/syscal-kid/"
+      target: "/en/products/proton-magnetic-resonance/numis-lite/"
       kind: page
       children: []
     - title: Numis Poly
-      target: "/en/products/resistivimetres/syscal-kid/"
+      target: "/en/products/proton-magnetic-resonance/numis-poly/"
       kind: page
       children: []
   - title: Tools
