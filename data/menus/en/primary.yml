@@ -86,23 +86,23 @@ items:
         kind: page
         children: []
       - title: VIP 5000
-        target: "/en/products/resistivimetres/syscal-kid/"
+        target: "/en/products/induced-polarisation/vip-5000/"
         kind: page
         children: []
       - title: TIP 6000
-        target: "/en/products/resistivimetres/syscal-kid/"
+        target: "/en/products/induced-polarisation/tip-6000/"
         kind: page
         children: []
       - title: VIP 10000
-        target: "/en/products/resistivimetres/syscal-kid/"
+        target: "/en/products/induced-polarisation/vip-10000/"
         kind: page
         children: []
       - title: TIP 12000
-        target: "/en/products/resistivimetres/syscal-kid/"
+        target: "/en/products/induced-polarisation/tip-12000/"
         kind: page
         children: []
       - title: I-FullWaver
-        target: "/en/products/resistivimetres/syscal-kid/"
+        target: "/en/products/induced-polarisation/i-fullwaver/"
         kind: page
         children: []
     - title: Receiver
