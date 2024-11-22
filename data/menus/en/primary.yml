@@ -54,15 +54,15 @@ items:
         kind: page
         children: []
       - title: Converter
-        target: "/en/products/resistivimetres/syscal-kid/"
+        target: "/en/products/resistivimetres/converter/"
         kind: page
         children: []
       - title: Syscal Deep Marine
-        target: "/en/products/resistivimetres/syscal-kid/"
+        target: "/en/products/resistivimetres/syscal-deep-marine/"
         kind: page
         children: []
       - title: Syscal Monitoring Unit (SMU)
-        target: "/en/products/resistivimetres/syscal-kid/"
+        target: "/en/products/resistivimetres/syscal-monitoring-unit-smu/"
         kind: page
         children: []
   - title: Induced Polarisation
@@ -74,15 +74,15 @@ items:
       kind: blank
       children:
       - title: TIP One
-        target: "/en/products/resistivimetres/syscal-kid/"
+        target: "/en/products/induced-polarisation/tip-one/"
         kind: page
         children: []
       - title: Tipix 2200
-        target: "/en/products/resistivimetres/syscal-kid/"
+        target: "/en/products/induced-polarisation/tipix-2200/"
         kind: page
         children: []
       - title: Tipix 3000
-        target: "/en/products/resistivimetres/syscal-kid/"
+        target: "/en/products/induced-polarisation/tipix-3000/"
         kind: page
         children: []
       - title: VIP 5000
