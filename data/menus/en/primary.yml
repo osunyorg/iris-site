@@ -42,15 +42,15 @@ items:
         kind: page
         children: []
       - title: Syscal Pro Switch
-        target: "/en/products/resistivimetres/syscal-kid/"
+        target: "/en/products/resistivimetres/syscal-pro-switch/"
         kind: page
         children: []
       - title: Syscal Pro
-        target: "/en/products/resistivimetres/syscal-kid/"
+        target: "/en/products/resistivimetres/syscal-pro/"
         kind: page
         children: []
       - title: Syscal R2
-        target: "/en/products/resistivimetres/syscal-kid/"
+        target: "/en/products/resistivimetres/syscal-r2/"
         kind: page
         children: []
       - title: Converter
