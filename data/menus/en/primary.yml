@@ -38,7 +38,7 @@ items:
         kind: page
         children: []
       - title: Syscal R1 Plus
-        target: "/en/products/resistivimetres/syscal-kid/"
+        target: "/en/products/resistivimetres/syscal-r1-plus/"
         kind: page
         children: []
       - title: Syscal Pro Switch
