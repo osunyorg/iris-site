@@ -4,13 +4,14 @@ breadcrumb_title: >-
 title: >-
   Accueil
 url: "/fr/"
+slug: ""
 date: 2024-05-31T11:23:33+02:00
 lastmod: 2024-09-30T10:59:50+02:00
 meta:
   hugo:
     permalink: "/fr/"
+    path: "/"
     file: "content/fr/_index.html"
-    path: ""
     slug: ""
   dates:
     created_at: 2024-05-31T11:23:33+02:00
@@ -94,12 +95,19 @@ contents:
 
       title_link: "/fr/agenda/archives/"
       events:
-        - path: "/fr/agenda/2024-03-24-sageep-2024/"
-          file: "events/archives/2024/2024-03-24-sageep-2024.html"
-        - path: "/fr/agenda/2024-03-03-pdac-2024/"
-          file: "events/archives/2024/2024-03-03-pdac-2024.html"
-        - path: "/fr/agenda/2024-01-22-ame-roundup/"
-          file: "events/archives/2024/2024-01-22-ame-roundup.html"
+        - permalink: "/fr/agenda/2024-03-24-sageep-2024/"
+          path: "/events/archives/2024/2024-03-24-sageep-2024"
+          slug: "sageep-2024"
+          file: "content/fr/events/archives/2024/2024-03-24-sageep-2024.html"
+        - permalink: "/fr/agenda/2024-03-03-pdac-2024/"
+          path: "/events/archives/2024/2024-03-03-pdac-2024"
+          slug: "pdac-2024"
+          file: "content/fr/events/archives/2024/2024-03-03-pdac-2024.html"
+        - permalink: "/fr/agenda/2024-01-22-ame-roundup/"
+          path: "/events/archives/2024/2024-01-22-ame-roundup"
+          slug: "ame-roundup"
+          file: "content/fr/events/archives/2024/2024-01-22-ame-roundup.html"
+
 
 
   - kind: block
@@ -118,6 +126,7 @@ contents:
 
       layout: grid
       pages:
+
 
 
   - kind: block
@@ -143,7 +152,11 @@ contents:
         summary: true
 
       posts:
-        - "2024/2024-03-06-release-of-our-new-ip-system"
+        - permalink: "/fr/actualites/2024-03-06-release-of-our-new-ip-system/"
+          path: "/posts/2024/2024-03-06-release-of-our-new-ip-system"
+          slug: "release-of-our-new-ip-system"
+          file: "content/fr/posts/2024/2024-03-06-release-of-our-new-ip-system.html"
+
 
 
 
