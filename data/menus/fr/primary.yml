@@ -5,6 +5,7 @@ items:
   target: "/fr/company/"
   kind: page
   children: []
+  path: "/pages/company"
   file: content/fr/pages/company/_index.html
 - title: Produits
   target: "/fr/produits-1/"
@@ -18,6 +19,7 @@ items:
       target: "/fr/produits-1/resistivimetres/"
       kind: page
       children: []
+      path: "/pages/produits-1/resistivimetres"
       file: content/fr/pages/produits-1/resistivimetres/_index.html
   - title: Polarisation provoquée
     target: ''
@@ -31,20 +33,24 @@ items:
       target: ''
       kind: blank
       children: []
+  path: "/pages/produits-1"
   file: content/fr/pages/produits-1/_index.html
 - title: Applications
   target: "/fr/applications/"
   kind: page
   children: []
+  path: "/pages/applications"
   file: content/fr/pages/applications/_index.html
 - title: Actualités
   target: "/fr/actualites/"
   kind: page
   children: []
+  path: "/posts"
   file: content/fr/posts/_index.html
 - title: Agenda
   target: "/fr/agenda/"
   kind: page
   children: []
+  path: "/events"
   file: content/fr/events/_index.html
 
