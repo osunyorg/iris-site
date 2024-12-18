@@ -4,52 +4,62 @@ items:
 - title: L'entreprise
   target: "/fr/company/"
   kind: page
+  new_tab: false
   children: []
   path: "/pages/company"
   file: content/fr/pages/company/_index.html
 - title: Produits
   target: "/fr/produits-1/"
   kind: page
+  new_tab: false
   children:
   - title: Résistivité Électrique
     target: ''
     kind: blank
+    new_tab: false
     children:
     - title: Résistivimètres
       target: "/fr/produits-1/resistivimetres/"
       kind: page
+      new_tab: false
       children: []
       path: "/pages/produits-1/resistivimetres"
       file: content/fr/pages/produits-1/resistivimetres/_index.html
   - title: Polarisation provoquée
     target: ''
     kind: blank
+    new_tab: false
     children:
     - title: Émetteur
       target: ''
       kind: blank
+      new_tab: false
       children: []
     - title: Récepteur
       target: ''
       kind: blank
+      new_tab: false
       children: []
   path: "/pages/produits-1"
   file: content/fr/pages/produits-1/_index.html
 - title: Applications
   target: "/fr/applications/"
   kind: page
+  new_tab: false
   children: []
   path: "/pages/applications"
   file: content/fr/pages/applications/_index.html
 - title: Actualités
   target: "/fr/actualites/"
   kind: page
+  new_tab: false
   children: []
   path: "/posts"
   file: content/fr/posts/_index.html
 - title: Agenda
   target: "/fr/agenda/"
   kind: page
+  new_tab: false
   children: []
   path: "/events"
   file: content/fr/events/_index.html
