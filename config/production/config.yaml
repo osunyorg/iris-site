@@ -2,6 +2,11 @@
 
 baseURL: https://irisinstruments.netlify.app
 
+## OSUNY
+osuny:
+  website:
+    id: 70327864-5abc-4e45-b652-82217719530f
+
 ## LANGUAGE
 defaultContentLanguage: en
 defaultContentLanguageInSubdir: true
