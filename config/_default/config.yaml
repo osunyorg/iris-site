@@ -5,14 +5,20 @@ removePathAccents: true
 params:
   summary:
     position: hero
-  search:
-    active: true
   breadcrumb:
     position: hero-end
     footer:
   logo:
-    header: "/assets/images/logo.svg"
+    header: "/assets/images/logo-white.svg"
     footer: "/assets/images/logo-white.svg"   
   menu:
     dropdown:
       linkToLevel1: false
+  image_sizes:
+    design_system:
+      lightbox:
+        disabled: true
+    sections:
+      home:
+        hero:
+          desktop:  1920

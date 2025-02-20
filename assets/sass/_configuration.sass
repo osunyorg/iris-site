@@ -4,25 +4,60 @@
 $body-font-family: "Montserrat", sans-serif
 $heading-font-family: "Montserrat", sans-serif
     
-$color-accent:  #3b817f
-$color-text: #214c6e
-$color-text-alt: $color-accent
+$color-accent:  #214c6e
+$color-text-alt: #808080
 $color-background: #FFFFFF
 $color-background-alt: #FFFFFF
-$color-border: $color-text
-$footer-background-color: $color-text
-$footer-color: #FFFFFF
 
-$header-logo-height: 50px
-$header-background: transparent
-$header-color: $color-text
+// TYPOGRAPHY
+$heading-font-weight: 400
+// h1
+$h1-size-desktop: pxToRem(45)
+$h1-line-height-desktop: pxToRem(49.5)
+$h1-weight: 400
+// h3
+$h3-size-desktop: pxToRem(23)
+$h3-line-height-desktop: pxToRem(25.3)
+
+// lead
+$lead-hero-size-desktop: pxToRem(45)
+$lead-hero-line-height-desktop: pxToRem(49.5)
+
+// footer
+$footer-background-color: $color-accent
+$footer-color: #FFFFFF
+$footer-logo-height-desktop: pxToRem(106)
+
+// header
+$header-logo-height: 72px
+$header-nav-padding-y-desktop: pxToRem(12)
+$header-background: $color-accent
+$header-color: #FFFFFF
+$header-sticky-background: $color-accent
 $header-dropdown-full: true
 $header-border-bottom-width: 0
 
-$hero-color: #214c6e
+// hero
+$hero-background-color: $color-accent
+$hero-color: #FFFFFF
 $hero-height-desktop: 26px
 $hero-height: 28px
+$hero-credit-color-desktop: $hero-color
+$hero-height-desktop: 0
 
+// toc
+$toc-color: var(--color-text-alt)
+$toc-active-color: var(--color-text)
+
+
+// buttons
+$btn-border: none
+$btn-border-radius: 0
+
+// BLOCKS
+$block-call-to-action-button-color: #214c6e
+
+// ICONS
 $icons-site: ()
 $icons-site: map-merge($icons-site, ("wave": "\e901"))
 
@@ -34,6 +69,3 @@ $icons-site: map-merge($icons-site, ("wave": "\e901"))
         font-family: 'Icon-site'
         font-size: pxToRem(24)
 
-$breadcrumb-color: $color-text
-
-$block-call-to-action-button-color: #214c6e
