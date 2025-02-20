@@ -55,3 +55,39 @@
         .toc-pages
             li:first-child
                 margin-top: 0
+
+// HOME
+
+
+// BLOCKS
+// organizations map
+.block-organizations
+    &--map
+        .map
+            .leaflet-popup
+                .leaflet-popup-content-wrapper
+                    background: $color-accent
+                    color: white
+                    overflow: visible !important
+                a.leaflet-popup-close-button
+                    color: white
+            .leaflet-marker-pane
+                display: none
+        .transcription,
+        .organization-content
+            @extend .sr-only
+        .organization
+            align-items: center
+            .media picture
+                aspect-ratio: unset
+            &::after
+                content: ''
+                background-color: $color-accent
+                height: pxToRem(32)
+                position: absolute
+                top: 100%
+                transform: translateY(-50%) rotate(45deg)
+                width: pxToRem(32)
+        // home
+        .page__home &
+            margin-bottom: 0
