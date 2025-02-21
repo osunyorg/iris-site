@@ -32,6 +32,8 @@ en:
     pages_categories: /:slug/
     posts: /posts/:year-:month-:day-:slug/
     posts_categories: /posts/:slug/
+    organizations: /organizations/:slug/
+    organizations_categories: /organizations/categories/:slug/
   taxonomies:
     administrator: administrators
     author: authors
@@ -79,6 +81,8 @@ fr:
     pages_categories: /:slug/
     posts: /actualites/:year-:month-:day-:slug/
     posts_categories: /actualites/:slug/
+    organizations: /organisations/:slug/
+    organizations_categories: /organisations/categories/:slug/
   taxonomies:
     administrator: administrators
     author: authors
