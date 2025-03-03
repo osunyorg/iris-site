@@ -1,4 +1,9 @@
 ---
 title: Contact
-items: []
+items:
+- title: "+33 238 638 100"
+  target: tel:+33 238 638 100
+  kind: url
+  new_tab: false
+  children: []
 
