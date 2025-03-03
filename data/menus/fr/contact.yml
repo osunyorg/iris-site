@@ -26,4 +26,9 @@ items:
   kind: blank
   new_tab: false
   children: []
+- title: contact@irisinstruments.com
+  target: mailto:contact@irisinstruments.com
+  kind: url
+  new_tab: false
+  children: []
 
