@@ -5,5 +5,10 @@ items:
   target: ''
   kind: blank
   new_tab: false
-  children: []
+  children:
+  - title: "+33 238 638 100"
+    target: tel:+33238638100
+    kind: url
+    new_tab: false
+    children: []
 
