@@ -1,24 +1,34 @@
 ---
 title: Contact
 items:
-- title: "+33 238 638 100"
-  target: tel:+33 238 638 100
-  kind: url
-  new_tab: false
-  children: []
-- title: "+33 466 584 525"
-  target: tel:+33466584525
-  kind: url
-  new_tab: false
-  children: []
 - title: Informations
   target: ''
   kind: blank
   new_tab: false
-  children: []
+  children:
+  - title: "+33 238 638 100"
+    target: tel:+33 238 638 100
+    kind: url
+    new_tab: false
+    children: []
 - title: Support
   target: ''
   kind: blank
   new_tab: false
-  children: []
+  children:
+  - title: "+33 466 584 525"
+    target: tel:+33466584525
+    kind: url
+    new_tab: false
+    children: []
+- title: Email
+  target: ''
+  kind: blank
+  new_tab: false
+  children:
+  - title: contact@irisinstruments.com
+    target: mailto:contact@irisinstruments.com
+    kind: url
+    new_tab: false
+    children: []
 
