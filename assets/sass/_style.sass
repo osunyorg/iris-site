@@ -1,3 +1,8 @@
+header#document-header
+    @include media-breakpoint-down(desktop)
+        .nav-level-1
+            > li:not(:last-child)
+                border-color: rgba($color-background, 0.1)
 
 .hero
     --btn-background: white
@@ -22,17 +27,27 @@
         .hero-text
             position: relative
             z-index: 2
-            max-width: columns(4)
+            @include media-breakpoint-up(desktop)
+                max-width: columns(4)
         &::before
-            background: linear-gradient(-269.02deg, rgba(0, 0, 0, 0.65) 56.54%, rgba(73, 73, 73, 0.46385) 77.58%, rgba(255, 255, 255, 0) 101.81%)
             content: ''
-            left: 0
             position: absolute
+            left: 0
             top: 0
-            width: columns(7)
             height: 100%
             z-index: 1
             opacity: 0.8
+            @include media-breakpoint-down(desktop)
+                background: linear-gradient(180deg, rgba(0, 0, 0, 0.65) 56.54%, rgba(73, 73, 73, 0.46385) 77.58%, rgba(255, 255, 255, 0) 101.81%)
+                height: 70vh
+                right: 0
+            @include media-breakpoint-up(desktop)
+                background: linear-gradient(-269.02deg, rgba(0, 0, 0, 0.65) 56.54%, rgba(73, 73, 73, 0.46385) 77.58%, rgba(255, 255, 255, 0) 101.81%)
+                width: columns(7)
+        @include media-breakpoint-down(desktop)
+            figure
+                margin-right: 0
+                margin-left: 0
     body:not(.page__home) &
         .hero-text
             margin: 0
@@ -60,34 +75,7 @@
 
 
 // BLOCKS
-// organizations map
-.block-organizations
-    &--map
-        .map
-            .leaflet-popup
-                .leaflet-popup-content-wrapper
-                    background: $color-accent
-                    color: white
-                    overflow: visible !important
-                a.leaflet-popup-close-button
-                    color: white
-            .leaflet-marker-pane
-                display: none
-        .transcription,
-        .organization-content
-            @extend .sr-only
-        .organization
-            align-items: center
-            .media picture
-                aspect-ratio: unset
-            &::after
-                content: ''
-                background-color: $color-accent
-                height: pxToRem(32)
-                position: absolute
-                top: 100%
-                transform: translateY(-50%) rotate(45deg)
-                width: pxToRem(32)
-        // home
-        .page__home &
-            margin-bottom: 0
+.block
+    .top
+        @include media-breakpoint-up(desktop)
+            margin-bottom: $spacing-5

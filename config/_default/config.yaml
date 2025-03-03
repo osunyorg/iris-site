@@ -22,3 +22,6 @@ params:
       home:
         hero:
           desktop:  1920
+  i18n:
+    positions:
+      - primary

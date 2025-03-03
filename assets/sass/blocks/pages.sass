@@ -1,0 +1,57 @@
+.block-pages
+    &--cards
+        &.with-images
+            .cards
+                article.card
+                    aspect-ratio: 3/4
+                    .media
+                        position: absolute
+                        top: 0
+                        left: 0
+                        right: 0
+                        bottom: 0
+                        margin: 0
+                        mix-blend-mode: multiply
+                        img
+                            aspect-ratio: 3/4
+                            filter: grayscale(1)
+                    .more,
+                    p
+                        position: relative
+                    .page-title,
+                    .more,
+                    p
+                        z-index: 2
+                    p
+                        margin-top: auto
+                    &:has(> p:not(.more))
+                        .more
+                            margin-top: unset
+        .cards
+            @include in-page-without-sidebar
+                @include grid(4, xl)
+    &--grid
+        &.block-class-horizontal-scroll
+            .grid
+                display: flex !important
+                gap: var(--grid-gutter)
+                margin-bottom: -($spacing-3)
+                margin-left: var(--grid-gutter-negative)
+                margin-right: var(--grid-gutter-negative)
+                overflow-x: auto
+                padding-bottom: $spacing-3
+                padding-left: var(--grid-gutter)
+                padding-right: var(--grid-gutter)
+                article.page
+                    background: $color-site-alt
+                    padding: 0 $spacing-1 $spacing-1
+                    min-width: columns(8)
+                    @include in-page-without-sidebar
+                        min-width: columns(3.1)
+                    .page-title,
+                    p
+                        text-align: center
+                    p
+                        @include small
+                    .media img
+                        aspect-ratio: 1

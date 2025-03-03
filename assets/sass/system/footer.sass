@@ -1,0 +1,61 @@
+footer#document-footer
+    .container:has(.logo)
+        align-items: center
+        gap: var(--grid-gutter)
+        .footer-contact
+            flex: 1
+            li
+                @include small
+                span
+                    display: block
+                    font-weight: 600
+                    margin-bottom: $spacing-1
+        .footer-contact
+            @include media-breakpoint-up(desktop)
+                li + li
+                    margin-top: 0
+                ul
+                    display: flex
+                    gap: var(--grid-gutter)
+                    li
+                        width: columns(3)
+                        white-space: nowrap
+        @include media-breakpoint-up(desktop)
+            .footer-logo
+                max-width: calc(#{columns(2)} + var(--grid-gutter))
+    // social medias
+    .footer-social
+        order: 0
+        gap: pxToRem(14)
+        width: columns(4)
+        > span
+            font-weight: 600
+    .site-links
+        flex: 1
+        gap: pxToRem(25)
+        a
+            @extend .sr-only
+        @include media-breakpoint-down(desktop)
+            display: flex
+            li + li
+                margin-top: 0
+    // display flex on every list
+    .footer-social,
+    .site-links,
+    .footer-legals,
+    .nav-legal
+        @include media-breakpoint-up(desktop)
+            align-items: baseline
+            display: flex
+            li + li
+                margin-top: 0
+    // legal menu
+    .footer-legals,
+    .nav-legal
+        column-gap: pxToRem(30)
+        flex-wrap: wrap
+        justify-content: flex-end
+        row-gap: $spacing-1
+    @include media-breakpoint-up(desktop)
+        .footer-credit
+            margin-top: 0

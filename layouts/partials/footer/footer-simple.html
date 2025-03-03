@@ -1,0 +1,28 @@
+<div class="container">
+  <div class="footer-logo">
+    {{ partial "footer/logo.html" }}
+  </div>
+  <div class="footer-contact">
+    {{ partial "commons/menu.html" (dict
+      "context" .
+      "kind" "contact"
+      "level" 1
+    )}}
+  </div>
+</div>
+
+<div class="container">
+  <div class="footer-social">
+    <span>{{ i18n "footer.follow" }}</span>
+    {{ partial "footer/social.html" . }}
+  </div>
+  <div class="footer-legals">
+    {{ partial "footer/legals.html" . }}
+    {{ if and site.Params.search.active (in site.Params.search.positions "footer") }}
+      <div class="footer-search">
+        {{ partial "commons/search/button.html" "footer" }}
+      </div>
+    {{ end }}
+    {{ partial "footer/credit.html" . }}
+  </div>
+</div>
