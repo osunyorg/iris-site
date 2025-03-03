@@ -21,4 +21,9 @@ items:
   kind: blank
   new_tab: false
   children: []
+- title: "+33 466 584 525"
+  target: tel:+33466584525
+  kind: url
+  new_tab: false
+  children: []
 
