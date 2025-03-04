@@ -10,9 +10,28 @@ header#document-header
         text-shadow: 2px 2px 4px rgba(0,0,0,0.4)
     .page__home &
         min-height: pxToRem(680)
-        h1,
+        h1
+            @extend .sr-only
+        figure img
+            object-position: bottom
+    .page-with-cover &,
+    .ancestor-with-cover &
+        background-color: $color-accent-alt
+        h1 + p
+            @extend .sr-only
+        figure 
+            mix-blend-mode: multiply
+            img
+                object-position: center
+                filter: grayscale(1)
+    .page__home &,
+    .page-with-cover &,
+    .ancestor-with-cover &
         figcaption
             @extend .sr-only
+        .breadcrumb-container
+            position: relative
+            z-index: 2
         figure
             position: absolute
             top: 0
@@ -23,7 +42,6 @@ header#document-header
                 height: 100%
             img
                 object-fit: cover
-                object-position: bottom
         .hero-text
             position: relative
             z-index: 2
@@ -48,7 +66,7 @@ header#document-header
             figure
                 margin-right: 0
                 margin-left: 0
-    body:not(.page__home) &
+    body:not(.page__home, .page-with-cover) &
         .hero-text
             margin: 0
         @include media-breakpoint-up(desktop)
