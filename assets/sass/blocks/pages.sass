@@ -48,10 +48,14 @@
                     min-width: columns(8)
                     @include in-page-without-sidebar
                         min-width: columns(3.1)
-                    .page-title,
-                    p
-                        text-align: center
-                    p
-                        @include small
-                    .media img
-                        aspect-ratio: 1
+        @include in-page-without-sidebar
+            .grid
+                @include grid(4)
+        article.page
+            .page-title,
+            p
+                text-align: center
+            p
+                @include small
+            .media img
+                aspect-ratio: 1
