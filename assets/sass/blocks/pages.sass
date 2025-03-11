@@ -15,18 +15,26 @@
                         img
                             aspect-ratio: 3/4
                             filter: grayscale(1)
-                    .more,
                     p
                         position: relative
-                    .page-title,
-                    .more,
-                    p
+                    .page-title, p
                         z-index: 2
+                    .more
+                        @extend .sr-only
                     p
+                        @include meta
                         margin-top: auto
+                    .page-title a
+                        @include icon(arrow-right-line, after, true)
+                            display: inline-block
+                            opacity: 0
+                            transition: all 0.3s ease
                     &:has(> p:not(.more))
                         .more
                             margin-top: unset
+                    &:hover .page-title a::after
+                        opacity: 1
+                        transform: translateX(space())
         .cards
             @include in-page-without-sidebar
                 @include grid(4, xl)
@@ -34,7 +42,7 @@
         &.block-class-horizontal-scroll
             .grid
                 display: flex !important
-                gap: var(--grid-gutter)
+                gap: $spacing-6 !important
                 margin-bottom: -($spacing-3)
                 margin-left: var(--grid-gutter-negative)
                 margin-right: var(--grid-gutter-negative)
@@ -43,11 +51,17 @@
                 padding-left: var(--grid-gutter)
                 padding-right: var(--grid-gutter)
                 article.page
-                    background: $color-site-alt
-                    padding: 0 $spacing-1 $spacing-1
                     min-width: columns(8)
                     @include in-page-without-sidebar
-                        min-width: columns(3.1)
+                        min-width: columns(3)
+        &.block-page-with-cover
+            .grid
+                @include in-page-without-sidebar
+                    @include grid(3)
+                    .media
+                        margin-left: auto
+                        margin-right: auto
+                        max-width: columns(3.2)
         .grid
             @include in-page-without-sidebar
                 @include grid(4)
@@ -62,3 +76,4 @@
                 @include in-page-with-sidebar
                     max-width: calc(#{columns(2)} + var(--grid-gutter))
                     margin: auto
+    
