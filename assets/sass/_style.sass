@@ -17,3 +17,12 @@ header#document-header
     .top
         @include media-breakpoint-up(desktop)
             margin-bottom: $spacing-5
+
+body.ancestor-with-cover
+    .document-content
+        .block:first-child
+            &.block-chapter--with-image
+                figure
+                    margin-top: $spacing-4
+                    @include media-breakpoint-up(xxl)
+                    margin-top: $spacing-6
