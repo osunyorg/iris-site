@@ -85,8 +85,10 @@
                 position: relative
             figure
                 position: absolute
-                right: 0
+                right: var(--grid-gutter)
                 top: 0
+            + .document-content
+                padding-top: $spacing-5
     body:not(.page__home) &
         padding-bottom: $spacing-3
         .has-lead > p
