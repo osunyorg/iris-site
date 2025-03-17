@@ -87,8 +87,11 @@
                 position: absolute
                 right: var(--grid-gutter)
                 top: 0
-            + .document-content
-                padding-top: $spacing-5
+                // empêcher l'image de passer sur le texte
+                img
+                    margin-left: auto
+                    max-height: 33vh
+                    width: auto
     body:not(.page__home) &
         padding-bottom: $spacing-3
         .has-lead > p
