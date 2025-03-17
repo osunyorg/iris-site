@@ -7,6 +7,9 @@ header#document-header
 .toc-container
     .toc-title
         @extend .sr-only
+    .toc-content
+        li, a, button
+            color: var(--color-text)
     @include media-breakpoint-up(desktop)
         .toc-pages
             li:first-child
