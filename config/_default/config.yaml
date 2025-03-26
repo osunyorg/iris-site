@@ -4,6 +4,8 @@ pagination:
 enableRobotsTXT: true
 removePathAccents: true
 params:
+  debug:
+    productionUrl: "https://irisinstruments.netlify.app"
   summary:
     position: hero
   breadcrumb:
