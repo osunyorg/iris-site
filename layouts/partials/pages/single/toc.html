@@ -1,0 +1,18 @@
+{{ $context := .context }}
+{{ $cta_in_sidebar := where .context.Params.contents "template" "call_to_action" }}
+{{ $cta_in_sidebar = where $cta_in_sidebar "html_class" "block-class-in-sidebar" }}
+
+{{ range $cta_in_sidebar }}
+  {{ partial "pages/single/custom-cta.html" (dict 
+      "block" .
+      "context" $context
+    ) }}
+{{ end }}
+
+<nav class="toc toc-pages" id="nav-toc" aria-labelledby="toc-title">
+  <ol>
+    {{- if .context.Params.contents -}}
+      {{- partial "blocks/toc.html" .context.Params.contents -}}
+    {{- end -}}
+  </ol>
+</nav>

@@ -1,0 +1,56 @@
+{{- $block := .block -}}
+{{- $context := .context -}}
+
+{{- with .block.data -}}
+  {{- $buttons := and .button.text .button_secondary.text -}}
+  <div class="custom-call_to_action call_to_action--with{{ if not .image }}out{{ end }}-image">
+    <div class="description">
+      {{ with $context }}
+        {{ with .Params.image }}
+          {{ partial "commons/image.html" (dict
+              "image" .id
+              "sizes" site.Params.image_sizes.custom_cta
+              "lazy" false
+            ) }}
+        {{ end }}
+        <p>{{ .Title }}</p>
+      {{ end }}
+    </div>
+    {{- if .buttons }}
+      <div class="actions" {{ if gt (len .buttons) 1 }}role="group"{{ end -}}>
+        {{- range .buttons -}}
+          {{ if .title }}
+            {{- $title := partial "PrepareHTML" .title -}}
+            <a href="{{ .url }}"
+              {{ if .target_blank }}
+                title="{{ i18n "commons.link.blank_aria" (dict "Title" $title) }}"
+                target="_blank"
+                rel="noreferrer"
+              {{ else }}
+                title="{{ $title }}"
+              {{ end }}
+              >{{- $title -}}
+            </a>
+          {{ end -}}
+        {{- end -}}
+      </div>
+    {{- end -}}
+
+    {{ if .image }}
+      <figure {{- with or .alt .credit }} role="figure" aria-label="{{ . | plainify }}" {{ end }}>
+        {{ partial "commons/image.html"
+          (dict
+            "image"    .image.file
+            "alt"      .alt
+            "sizes"    site.Params.image_sizes.blocks.call_to_action
+        )}}
+        {{ if partial "GetTextFromHTML" .credit }}
+          <figcaption class="credit">
+            {{ partial "PrepareHTML" .credit }}
+          </figcaption>
+        {{ end }}
+      </figure>
+    {{ end }}
+  </div>
+
+{{- end -}}

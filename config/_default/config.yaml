@@ -18,6 +18,10 @@ params:
     dropdown:
       linkToLevel1: false
   image_sizes:
+    custom_cta:
+      mobile:   70
+      tablet:   70
+      desktop:  70
     design_system:
       lightbox:
         disabled: true

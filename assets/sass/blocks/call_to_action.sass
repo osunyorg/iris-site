@@ -1,0 +1,32 @@
+.block-call_to_action
+    &.in-sidebar
+        display: none !important
+
+.custom-call_to_action
+    background: var(--color-background-alt)
+    margin-bottom: $spacing-3
+    padding: $spacing-2
+    a
+        display: block !important
+        text-align: center
+        &[target="_blank"]
+            &::after
+                display: none
+        &:first-child
+            @extend .button--accent
+            color: white !important
+        &:not(:first-child)
+            @extend .button
+            --btn-border: 1px solid #{$color-text}
+            --btn-hover-border: 1px solid #{$color-text}
+        + a 
+            margin-top: $spacing-1
+    .description
+        display: flex
+        align-items: center
+        gap: $spacing-1
+        margin-bottom: $spacing-1
+        p
+            font-weight: bold
+        picture
+            max-width: pxToRem(70)
