@@ -85,8 +85,13 @@
                 position: relative
             figure
                 position: absolute
-                right: 0
+                right: var(--grid-gutter)
                 top: 0
+                // empêcher l'image de passer sur le texte
+                img
+                    margin-left: auto
+                    max-height: 33vh
+                    width: auto
     body:not(.page__home) &
         padding-bottom: $spacing-3
         .has-lead > p
