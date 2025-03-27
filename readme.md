@@ -1,14 +1,12 @@
 # IRIS Instrument
 
-## Guides
-
-### Bloc "Appel à action"
+## Bloc "Appel à action"
 
 ![Bloc appel à action dans la sidebar](docs/bloc-appel-action.png)
 
 Pour afficher un bloc "Appel à action" au dessus de la table des matières, il faut créer un bloc "Appel à action" dans la page et le mettre en première position dans la liste des blocs.
 
-### Image avec dégradé dans l'en-tête
+## Image avec dégradé dans l'en-tête
 
 ![Image avec dégradée en admin](docs/hero-gradient-cover.png)
 
