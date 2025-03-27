@@ -92,6 +92,9 @@
                     margin-left: auto
                     max-height: 33vh
                     width: auto
+                    @include media-breakpoint-up(xxl)
+                        max-height: 300px
+        
     body:not(.page__home) &
         padding-bottom: $spacing-3
         .has-lead > p
@@ -99,8 +102,8 @@
         @include media-breakpoint-up(desktop)
             .breadcrumb-container
                 margin-top: $spacing-3
-    @include media-breakpoint-up(xxl)
-        min-height: calc(pxToRem(680) + #{$header-height})
+    // @include media-breakpoint-up(xxl)
+    //     min-height: calc(pxToRem(680) + #{$header-height})
     @include media-breakpoint-down(desktop)
         &.hero--with-image
             padding-bottom: $spacing-1
