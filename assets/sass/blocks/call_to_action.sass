@@ -1,9 +1,7 @@
-.blocks
-    .block-call_to_action:first-child
-        display: none !important
 
-.custom-call_to_action
-    background: var(--color-background-alt)
+.custom-call_to_action, 
+.blocks .block-call_to_action:first-child
+    background: $custom-cta-background
     margin-bottom: $spacing-3
     padding: $spacing-2
     a
@@ -30,3 +28,25 @@
             font-weight: bold
         picture
             max-width: pxToRem(70)
+
+@include media-breakpoint-up(desktop)
+    .blocks
+        .block-call_to_action:first-child
+            display: none !important
+
+@include media-breakpoint-down(desktop)
+    .custom-call_to_action
+        display: none !important
+    .blocks
+        .block-call_to_action
+            &:first-child
+                --block-space-y: var(--grid-gutter)
+                margin-top: -$spacing-3
+                padding: 0
+                .call_to_action.call_to_action--without-text
+                    .actions
+                        a
+                            margin-right: 0 !important
+                        a:first-child
+                            margin-top: 0
+                            color: var(--color-text) !important
