@@ -26,7 +26,7 @@
         figure 
             mix-blend-mode: multiply
             img
-                object-position: center
+                object-position: top
                 filter: grayscale(1)
     .ancestor-with-cover &
         figure
@@ -54,8 +54,8 @@
         .hero-text
             position: relative
             z-index: 2
-            // @include media-breakpoint-up(desktop)
-            //     max-width: 27ch
+            @include media-breakpoint-up(desktop)
+                max-width: columns(4)
         &::before
             content: ''
             position: absolute

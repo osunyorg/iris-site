@@ -2,7 +2,23 @@
 // organizations map
 .block-organizations
     &--map
+        .transcription,
+        .organization-content
+            @extend .sr-only
         .map
+            margin-left: 0 !important
+            margin-right: 0 !important
+            // grayscale
+            .leaflet-popup-pane
+                &::before
+                    content: ''
+                    -webkit-backdrop-filter: grayscale(1)
+                    backdrop-filter: grayscale(1)
+                    height: pxToRem(600)
+                    left: 0
+                    position: absolute
+                    top: 0
+                    width: 100vw
             .leaflet-popup
                 .leaflet-popup-content-wrapper
                     background: $color-accent
@@ -12,9 +28,6 @@
                     color: white
             .leaflet-marker-pane
                 display: none
-        .transcription,
-        .organization-content
-            @extend .sr-only
         .organization
             align-items: center
             .media picture
@@ -27,7 +40,13 @@
                 top: 100%
                 transform: translateY(-50%) rotate(45deg)
                 width: pxToRem(32)
+        > .container
+            padding-left: var(--grid-gutter-negative)
+            padding-right: var(--grid-gutter-negative)
+            width: 100%
+        .top
+            padding-left: var(--grid-gutter)
+            padding-right: var(--grid-gutter)
         // home
         .page__home &
-            @include media-breakpoint-up(desktop)
-                margin-bottom: 0
+            margin-bottom: 0

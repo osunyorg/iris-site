@@ -20,6 +20,13 @@ header#document-header
     .top
         @include media-breakpoint-up(desktop)
             margin-bottom: $spacing-5
+        @include in-page-without-sidebar
+            .block-title a
+                &::after
+                    opacity: 0
+                &:hover::after
+                    opacity: 1
+
 
 body.ancestor-with-cover
     .document-content
