@@ -79,20 +79,6 @@ items:
         children: []
         path: "/pages/products/resistivimetres/syscal-pro"
         file: content/en/pages/products/resistivimetres/syscal-pro/_index.html
-      - title: Syscal R2
-        target: "/en/products/resistivimetres/syscal-r2/"
-        kind: page
-        new_tab: false
-        children: []
-        path: "/pages/products/resistivimetres/syscal-r2"
-        file: content/en/pages/products/resistivimetres/syscal-r2/_index.html
-      - title: Converter
-        target: "/en/products/resistivimetres/converter/"
-        kind: page
-        new_tab: false
-        children: []
-        path: "/pages/products/resistivimetres/converter"
-        file: content/en/pages/products/resistivimetres/converter/_index.html
       - title: Syscal Deep Marine
         target: "/en/products/resistivimetres/syscal-deep-marine/"
         kind: page
@@ -100,13 +86,6 @@ items:
         children: []
         path: "/pages/products/resistivimetres/syscal-deep-marine"
         file: content/en/pages/products/resistivimetres/syscal-deep-marine/_index.html
-      - title: Syscal Monitoring Unit (SMU)
-        target: "/en/products/resistivimetres/syscal-monitoring-unit-smu/"
-        kind: page
-        new_tab: false
-        children: []
-        path: "/pages/products/resistivimetres/syscal-monitoring-unit-smu"
-        file: content/en/pages/products/resistivimetres/syscal-monitoring-unit-smu/_index.html
       path: "/pages/products/resistivimetres"
       file: content/en/pages/products/resistivimetres/_index.html
   - title: Induced Polarisation
