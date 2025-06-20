@@ -79,7 +79,14 @@ items:
         children: []
         path: "/pages/products/resistivimetres/syscal-pro"
         file: content/en/pages/products/resistivimetres/syscal-pro/_index.html
-      - title: Syscal Deep Marine
+      - title: Booster 1200 W
+        target: "/en/products/resistivimetres/converter/"
+        kind: page
+        new_tab: false
+        children: []
+        path: "/pages/products/resistivimetres/converter"
+        file: content/en/pages/products/resistivimetres/converter/_index.html
+      - title: Syscal Marine
         target: "/en/products/resistivimetres/syscal-deep-marine/"
         kind: page
         new_tab: false
