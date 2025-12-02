@@ -1,8 +1,11 @@
 .block-pages
     &--cards
+        .page-title
+            a
+                color: inherit
         &.with-images
-            .cards
-                article.card
+            .pages
+                .page
                     aspect-ratio: 3/4
                     .media
                         position: absolute
@@ -35,7 +38,7 @@
                     &:hover .page-title a::after
                         opacity: 1
                         transform: translateX(space())
-        .cards
+        .pages
             @include in-page-without-sidebar
                 @include grid(4, xl)
     &--grid
@@ -50,7 +53,7 @@
             .top
                 padding-left: var(--grid-gutter)
                 padding-right: var(--grid-gutter)
-            .grid
+            .pages
                 display: flex !important
                 gap: $spacing-5 !important
                 overflow-x: auto
@@ -66,14 +69,14 @@
                     @include in-page-without-sidebar
                         min-width: columns(3)
         &.block-page-with-cover
-            .grid
+            .pages
                 @include in-page-without-sidebar
                     @include grid(3)
                     .media
                         margin-left: auto
                         margin-right: auto
                         max-width: columns(3.2)
-        .grid
+        .pages
             @include in-page-without-sidebar
                 @include grid(4)
         &.with-images
