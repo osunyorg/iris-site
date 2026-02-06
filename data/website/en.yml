@@ -6,23 +6,17 @@ contents_reading_time:
 contents:
   - kind: block
     template: embed
-    title: >-
-      
-    slug: >-
-      
+
+
     ranks:
       base: 2
     top:
       active: false
+
     data:
       code: >-
         <form action="https://feedburner.google.com/fb/a/mailverify" method="post" target="popupwindow" onsubmit="window.open('https://feedburner.google.com/fb/a/mailverify?uri=NewsIrisInstruments', 'popupwindow', 'scrollbars=yes,width=550,height=520');return true"><table style=" width:100%;padding:0;"><tbody><tr>	<th>Abonnez-vous à la Newsletter IRIS Instruments</th></tr><tr>	<td>		<input type="text" name="email" placeholder="Email address...">	</td>	<td>      <input type="hidden" value="NewsIrisInstruments" name="uri">      <input type="hidden" name="loc" value="en_US">      <input type="submit" value="Subscribe">	</td></tr></tbody></table></form>
 
-      transcription_title: >-
-        
-
-      transcription: >-
-        
 
 
 
