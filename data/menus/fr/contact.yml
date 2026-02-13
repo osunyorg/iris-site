@@ -2,33 +2,48 @@
 title: Contact
 items:
 - title: Informations
+  slug: informations
   target: ''
   kind: blank
   new_tab: false
   children:
   - title: "+33 238 638 100"
+    slug: 33-238-638-100
     target: tel:+33238638100
     kind: url
     new_tab: false
     children: []
+    descendants_targets: []
+  descendants_targets:
+  - tel:+33238638100
 - title: Support
+  slug: support
   target: ''
   kind: blank
   new_tab: false
   children:
   - title: "+33 466 584 525"
+    slug: 33-466-584-525
     target: tel:+33466584525
     kind: url
     new_tab: false
     children: []
+    descendants_targets: []
+  descendants_targets:
+  - tel:+33466584525
 - title: Email
+  slug: email
   target: ''
   kind: blank
   new_tab: false
   children:
   - title: contact@irisinstruments.com
+    slug: contact-irisinstruments-com
     target: mailto:contact@irisinstruments.com
     kind: url
     new_tab: false
     children: []
+    descendants_targets: []
+  descendants_targets:
+  - mailto:contact@irisinstruments.com
 

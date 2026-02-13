@@ -2,345 +2,536 @@
 title: Main menu
 items:
 - title: Company
+  slug: company
   target: "/en/company/"
   kind: page
   new_tab: false
   children: []
+  descendants_targets: []
   path: "/pages/company"
   file: content/en/pages/company/_index.html
 - title: Products
+  slug: products
   target: "/en/products/"
   kind: page
   new_tab: false
   children:
   - title: Electrical Resistivity
+    slug: electrical-resistivity
     target: ''
     kind: blank
     new_tab: false
     children:
     - title: Resistivity meter
+      slug: resistivity-meter
       target: "/en/products/resistivimetres/"
       kind: page
       new_tab: false
       children:
       - title: Syscal Kid Switch
+        slug: syscal-kid-switch
         target: "/en/products/resistivimetres/syscal-kid-switch/"
         kind: page
         new_tab: false
         children: []
+        descendants_targets: []
         path: "/pages/products/resistivimetres/syscal-kid-switch"
         file: content/en/pages/products/resistivimetres/syscal-kid-switch/_index.html
       - title: Syscal Kid
+        slug: syscal-kid
         target: "/en/products/resistivimetres/syscal-kid/"
         kind: page
         new_tab: false
         children: []
+        descendants_targets: []
         path: "/pages/products/resistivimetres/syscal-kid"
         file: content/en/pages/products/resistivimetres/syscal-kid/_index.html
       - title: Syscal Junior Switch
+        slug: syscal-junior-switch
         target: "/en/products/resistivimetres/syscal-junior-switch/"
         kind: page
         new_tab: false
         children: []
+        descendants_targets: []
         path: "/pages/products/resistivimetres/syscal-junior-switch"
         file: content/en/pages/products/resistivimetres/syscal-junior-switch/_index.html
       - title: Syscal Junior
+        slug: syscal-junior
         target: "/en/products/resistivimetres/syscal-junior/"
         kind: page
         new_tab: false
         children: []
+        descendants_targets: []
         path: "/pages/products/resistivimetres/syscal-junior"
         file: content/en/pages/products/resistivimetres/syscal-junior/_index.html
       - title: Syscal R1 Plus Switch
+        slug: syscal-r1-plus-switch
         target: "/en/products/resistivimetres/syscal-r1-plus-switch/"
         kind: page
         new_tab: false
         children: []
+        descendants_targets: []
         path: "/pages/products/resistivimetres/syscal-r1-plus-switch"
         file: content/en/pages/products/resistivimetres/syscal-r1-plus-switch/_index.html
       - title: Syscal R1 Plus
+        slug: syscal-r1-plus
         target: "/en/products/resistivimetres/syscal-r1-plus/"
         kind: page
         new_tab: false
         children: []
+        descendants_targets: []
         path: "/pages/products/resistivimetres/syscal-r1-plus"
         file: content/en/pages/products/resistivimetres/syscal-r1-plus/_index.html
       - title: Syscal Pro Switch
+        slug: syscal-pro-switch
         target: "/en/products/resistivimetres/syscal-pro-switch/"
         kind: page
         new_tab: false
         children: []
+        descendants_targets: []
         path: "/pages/products/resistivimetres/syscal-pro-switch"
         file: content/en/pages/products/resistivimetres/syscal-pro-switch/_index.html
       - title: Syscal Pro
+        slug: syscal-pro
         target: "/en/products/resistivimetres/syscal-pro/"
         kind: page
         new_tab: false
         children: []
+        descendants_targets: []
         path: "/pages/products/resistivimetres/syscal-pro"
         file: content/en/pages/products/resistivimetres/syscal-pro/_index.html
       - title: Booster 1200 W
+        slug: booster-1200-w
         target: "/en/products/resistivimetres/converter/"
         kind: page
         new_tab: false
         children: []
+        descendants_targets: []
         path: "/pages/products/resistivimetres/converter"
         file: content/en/pages/products/resistivimetres/converter/_index.html
       - title: Syscal Marine
+        slug: syscal-marine
         target: "/en/products/resistivimetres/syscal-deep-marine/"
         kind: page
         new_tab: false
         children: []
+        descendants_targets: []
         path: "/pages/products/resistivimetres/syscal-deep-marine"
         file: content/en/pages/products/resistivimetres/syscal-deep-marine/_index.html
+      descendants_targets:
+      - "/en/products/resistivimetres/converter/"
+      - "/en/products/resistivimetres/syscal-deep-marine/"
+      - "/en/products/resistivimetres/syscal-junior-switch/"
+      - "/en/products/resistivimetres/syscal-junior/"
+      - "/en/products/resistivimetres/syscal-kid-switch/"
+      - "/en/products/resistivimetres/syscal-kid/"
+      - "/en/products/resistivimetres/syscal-pro-switch/"
+      - "/en/products/resistivimetres/syscal-pro/"
+      - "/en/products/resistivimetres/syscal-r1-plus-switch/"
+      - "/en/products/resistivimetres/syscal-r1-plus/"
       path: "/pages/products/resistivimetres"
       file: content/en/pages/products/resistivimetres/_index.html
+    descendants_targets:
+    - "/en/products/resistivimetres/"
+    - "/en/products/resistivimetres/converter/"
+    - "/en/products/resistivimetres/syscal-deep-marine/"
+    - "/en/products/resistivimetres/syscal-junior-switch/"
+    - "/en/products/resistivimetres/syscal-junior/"
+    - "/en/products/resistivimetres/syscal-kid-switch/"
+    - "/en/products/resistivimetres/syscal-kid/"
+    - "/en/products/resistivimetres/syscal-pro-switch/"
+    - "/en/products/resistivimetres/syscal-pro/"
+    - "/en/products/resistivimetres/syscal-r1-plus-switch/"
+    - "/en/products/resistivimetres/syscal-r1-plus/"
   - title: Induced Polarisation
+    slug: induced-polarisation
     target: "/en/products/induced-polarisation/"
     kind: page
     new_tab: false
     children:
     - title: Transmitter
+      slug: transmitter
       target: ''
       kind: blank
       new_tab: false
       children:
       - title: TIP One
+        slug: tip-one
         target: "/en/products/induced-polarisation/tip-one/"
         kind: page
         new_tab: false
         children: []
+        descendants_targets: []
         path: "/pages/products/induced-polarisation/tip-one"
         file: content/en/pages/products/induced-polarisation/tip-one/_index.html
       - title: Tipix 2200
+        slug: tipix-2200
         target: "/en/products/induced-polarisation/tipix-2200/"
         kind: page
         new_tab: false
         children: []
+        descendants_targets: []
         path: "/pages/products/induced-polarisation/tipix-2200"
         file: content/en/pages/products/induced-polarisation/tipix-2200/_index.html
       - title: Tipix 3000
+        slug: tipix-3000
         target: "/en/products/induced-polarisation/tipix-3000/"
         kind: page
         new_tab: false
         children: []
+        descendants_targets: []
         path: "/pages/products/induced-polarisation/tipix-3000"
         file: content/en/pages/products/induced-polarisation/tipix-3000/_index.html
       - title: VIP 5000
+        slug: vip-5000
         target: "/en/products/induced-polarisation/vip-5000/"
         kind: page
         new_tab: false
         children: []
+        descendants_targets: []
         path: "/pages/products/induced-polarisation/vip-5000"
         file: content/en/pages/products/induced-polarisation/vip-5000/_index.html
       - title: TIP 6000
+        slug: tip-6000
         target: "/en/products/induced-polarisation/tip-6000/"
         kind: page
         new_tab: false
         children: []
+        descendants_targets: []
         path: "/pages/products/induced-polarisation/tip-6000"
         file: content/en/pages/products/induced-polarisation/tip-6000/_index.html
       - title: VIP 10000
+        slug: vip-10000
         target: "/en/products/induced-polarisation/vip-10000/"
         kind: page
         new_tab: false
         children: []
+        descendants_targets: []
         path: "/pages/products/induced-polarisation/vip-10000"
         file: content/en/pages/products/induced-polarisation/vip-10000/_index.html
       - title: TIP 12000
+        slug: tip-12000
         target: "/en/products/induced-polarisation/tip-12000/"
         kind: page
         new_tab: false
         children: []
+        descendants_targets: []
         path: "/pages/products/induced-polarisation/tip-12000"
         file: content/en/pages/products/induced-polarisation/tip-12000/_index.html
       - title: I-FullWaver
+        slug: i-fullwaver
         target: "/en/products/induced-polarisation/i-fullwaver/"
         kind: page
         new_tab: false
         children: []
+        descendants_targets: []
         path: "/pages/products/induced-polarisation/i-fullwaver"
         file: content/en/pages/products/induced-polarisation/i-fullwaver/_index.html
+      descendants_targets:
+      - "/en/products/induced-polarisation/i-fullwaver/"
+      - "/en/products/induced-polarisation/tip-12000/"
+      - "/en/products/induced-polarisation/tip-6000/"
+      - "/en/products/induced-polarisation/tip-one/"
+      - "/en/products/induced-polarisation/tipix-2200/"
+      - "/en/products/induced-polarisation/tipix-3000/"
+      - "/en/products/induced-polarisation/vip-10000/"
+      - "/en/products/induced-polarisation/vip-5000/"
     - title: Receiver
+      slug: receiver
       target: ''
       kind: blank
       new_tab: false
       children:
       - title: Elrec Lite
+        slug: elrec-lite
         target: "/en/products/induced-polarisation/elrec-lite/"
         kind: page
         new_tab: false
         children: []
+        descendants_targets: []
         path: "/pages/products/induced-polarisation/elrec-lite"
         file: content/en/pages/products/induced-polarisation/elrec-lite/_index.html
       - title: Elrec Pro Std. / Switch
+        slug: elrec-pro-std-switch
         target: "/en/products/induced-polarisation/elrec-pro-std-switch/"
         kind: page
         new_tab: false
         children: []
+        descendants_targets: []
         path: "/pages/products/induced-polarisation/elrec-pro-std-switch"
         file: content/en/pages/products/induced-polarisation/elrec-pro-std-switch/_index.html
       - title: Elrec Terra Std. / Switch
+        slug: elrec-terra-std-switch
         target: "/en/products/induced-polarisation/elrec-terra-std-switch/"
         kind: page
         new_tab: false
         children: []
+        descendants_targets: []
         path: "/pages/products/induced-polarisation/elrec-terra-std-switch"
         file: content/en/pages/products/induced-polarisation/elrec-terra-std-switch/_index.html
       - title: V-FullWaver
+        slug: v-fullwaver
         target: "/en/products/induced-polarisation/v-fullwaver/"
         kind: page
         new_tab: false
         children: []
+        descendants_targets: []
         path: "/pages/products/induced-polarisation/v-fullwaver"
         file: content/en/pages/products/induced-polarisation/v-fullwaver/_index.html
+      descendants_targets:
+      - "/en/products/induced-polarisation/elrec-lite/"
+      - "/en/products/induced-polarisation/elrec-pro-std-switch/"
+      - "/en/products/induced-polarisation/elrec-terra-std-switch/"
+      - "/en/products/induced-polarisation/v-fullwaver/"
+    descendants_targets:
+    - ''
+    - "/en/products/induced-polarisation/elrec-lite/"
+    - "/en/products/induced-polarisation/elrec-pro-std-switch/"
+    - "/en/products/induced-polarisation/elrec-terra-std-switch/"
+    - "/en/products/induced-polarisation/i-fullwaver/"
+    - "/en/products/induced-polarisation/tip-12000/"
+    - "/en/products/induced-polarisation/tip-6000/"
+    - "/en/products/induced-polarisation/tip-one/"
+    - "/en/products/induced-polarisation/tipix-2200/"
+    - "/en/products/induced-polarisation/tipix-3000/"
+    - "/en/products/induced-polarisation/v-fullwaver/"
+    - "/en/products/induced-polarisation/vip-10000/"
+    - "/en/products/induced-polarisation/vip-5000/"
     path: "/pages/products/induced-polarisation"
     file: content/en/pages/products/induced-polarisation/_index.html
   - title: Electromagnetic
+    slug: electromagnetic
     target: "/en/products/electromagnetic/"
     kind: page
     new_tab: false
     children:
     - title: Promis 10
+      slug: promis-10
       target: "/en/products/electromagnetic/promis-10/"
       kind: page
       new_tab: false
       children: []
+      descendants_targets: []
       path: "/pages/products/electromagnetic/promis-10"
       file: content/en/pages/products/electromagnetic/promis-10/_index.html
     - title: T-Vlf
+      slug: t-vlf
       target: "/en/products/electromagnetic/t-vlf/"
       kind: page
       new_tab: false
       children: []
+      descendants_targets: []
       path: "/pages/products/electromagnetic/t-vlf"
       file: content/en/pages/products/electromagnetic/t-vlf/_index.html
+    descendants_targets:
+    - "/en/products/electromagnetic/promis-10/"
+    - "/en/products/electromagnetic/t-vlf/"
     path: "/pages/products/electromagnetic"
     file: content/en/pages/products/electromagnetic/_index.html
   - title: Proton Magnetic Resonance
+    slug: proton-magnetic-resonance
     target: "/en/products/proton-magnetic-resonance/"
     kind: page
     new_tab: false
     children:
     - title: Numis Lite
+      slug: numis-lite
       target: "/en/products/proton-magnetic-resonance/numis-lite/"
       kind: page
       new_tab: false
       children: []
+      descendants_targets: []
       path: "/pages/products/proton-magnetic-resonance/numis-lite"
       file: content/en/pages/products/proton-magnetic-resonance/numis-lite/_index.html
     - title: Numis Poly
+      slug: numis-poly
       target: "/en/products/proton-magnetic-resonance/numis-poly/"
       kind: page
       new_tab: false
       children: []
+      descendants_targets: []
       path: "/pages/products/proton-magnetic-resonance/numis-poly"
       file: content/en/pages/products/proton-magnetic-resonance/numis-poly/_index.html
+    descendants_targets:
+    - "/en/products/proton-magnetic-resonance/numis-lite/"
+    - "/en/products/proton-magnetic-resonance/numis-poly/"
     path: "/pages/products/proton-magnetic-resonance"
     file: content/en/pages/products/proton-magnetic-resonance/_index.html
   - title: Tools
+    slug: tools
     target: "/en/products/tools/"
     kind: page
     new_tab: false
     children: []
+    descendants_targets: []
     path: "/pages/products/tools"
     file: content/en/pages/products/tools/_index.html
+  descendants_targets:
+  - ''
+  - "/en/products/electromagnetic/"
+  - "/en/products/electromagnetic/promis-10/"
+  - "/en/products/electromagnetic/t-vlf/"
+  - "/en/products/induced-polarisation/"
+  - "/en/products/induced-polarisation/elrec-lite/"
+  - "/en/products/induced-polarisation/elrec-pro-std-switch/"
+  - "/en/products/induced-polarisation/elrec-terra-std-switch/"
+  - "/en/products/induced-polarisation/i-fullwaver/"
+  - "/en/products/induced-polarisation/tip-12000/"
+  - "/en/products/induced-polarisation/tip-6000/"
+  - "/en/products/induced-polarisation/tip-one/"
+  - "/en/products/induced-polarisation/tipix-2200/"
+  - "/en/products/induced-polarisation/tipix-3000/"
+  - "/en/products/induced-polarisation/v-fullwaver/"
+  - "/en/products/induced-polarisation/vip-10000/"
+  - "/en/products/induced-polarisation/vip-5000/"
+  - "/en/products/proton-magnetic-resonance/"
+  - "/en/products/proton-magnetic-resonance/numis-lite/"
+  - "/en/products/proton-magnetic-resonance/numis-poly/"
+  - "/en/products/resistivimetres/"
+  - "/en/products/resistivimetres/converter/"
+  - "/en/products/resistivimetres/syscal-deep-marine/"
+  - "/en/products/resistivimetres/syscal-junior-switch/"
+  - "/en/products/resistivimetres/syscal-junior/"
+  - "/en/products/resistivimetres/syscal-kid-switch/"
+  - "/en/products/resistivimetres/syscal-kid/"
+  - "/en/products/resistivimetres/syscal-pro-switch/"
+  - "/en/products/resistivimetres/syscal-pro/"
+  - "/en/products/resistivimetres/syscal-r1-plus-switch/"
+  - "/en/products/resistivimetres/syscal-r1-plus/"
+  - "/en/products/tools/"
   path: "/pages/products"
   file: content/en/pages/products/_index.html
 - title: Applications
+  slug: applications
   target: "/en/applications/"
   kind: page
   new_tab: false
   children: []
+  descendants_targets: []
   path: "/pages/applications"
   file: content/en/pages/applications/_index.html
 - title: Support
+  slug: support
   target: ''
   kind: blank
   new_tab: false
   children:
   - title: IRIS Academy
+    slug: iris-academy
     target: "/en/projects/iris-academy/"
     kind: page
     new_tab: false
     children: []
+    descendants_targets: []
     path: "/pages/projects/iris-academy"
     file: content/en/pages/projects/iris-academy/_index.html
   - title: FAQ and Tips
+    slug: faq-and-tips
     target: "/en/projects/faq-and-tips/"
     kind: page
     new_tab: false
     children: []
+    descendants_targets: []
     path: "/pages/projects/faq-and-tips"
     file: content/en/pages/projects/faq-and-tips/_index.html
   - title: Rental equipment and accessories
+    slug: rental-equipment-and-accessories
     target: "/en/projects/rental-equipment-and-accessories/"
     kind: page
     new_tab: false
     children: []
+    descendants_targets: []
     path: "/pages/projects/rental-equipment-and-accessories"
     file: content/en/pages/projects/rental-equipment-and-accessories/_index.html
+  descendants_targets:
+  - "/en/projects/faq-and-tips/"
+  - "/en/projects/iris-academy/"
+  - "/en/projects/rental-equipment-and-accessories/"
 - title: Training
+  slug: training
   target: "/en/training/"
   kind: page
   new_tab: false
   children:
   - title: Resistivity Training
+    slug: resistivity-training
     target: "/en/training/resistivity-training/"
     kind: page
     new_tab: false
     children: []
+    descendants_targets: []
     path: "/pages/training/resistivity-training"
     file: content/en/pages/training/resistivity-training/_index.html
   - title: Electromagnetic Traning
+    slug: electromagnetic-traning
     target: "/en/training/electromagnetic-training/"
     kind: page
     new_tab: false
     children: []
+    descendants_targets: []
     path: "/pages/training/electromagnetic-training"
     file: content/en/pages/training/electromagnetic-training/_index.html
   - title: Magnetic Resonance Training
+    slug: magnetic-resonance-training
     target: "/en/training/magnetic-resonance-training/"
     kind: page
     new_tab: false
     children: []
+    descendants_targets: []
     path: "/pages/training/magnetic-resonance-training"
     file: content/en/pages/training/magnetic-resonance-training/_index.html
+  descendants_targets:
+  - "/en/training/electromagnetic-training/"
+  - "/en/training/magnetic-resonance-training/"
+  - "/en/training/resistivity-training/"
   path: "/pages/training"
   file: content/en/pages/training/_index.html
 - title: Softwares
+  slug: softwares
   target: "/en/softwares/"
   kind: page
   new_tab: false
   children:
   - title: Processing software
+    slug: processing-software
     target: "/en/softwares/processing-software/"
     kind: page
     new_tab: false
     children: []
+    descendants_targets: []
     path: "/pages/softwares/processing-software"
     file: content/en/pages/softwares/processing-software/_index.html
   - title: Interpretation software
+    slug: interpretation-software
     target: "/en/softwares/processing-software-1/"
     kind: page
     new_tab: false
     children: []
+    descendants_targets: []
     path: "/pages/softwares/processing-software-1"
     file: content/en/pages/softwares/processing-software-1/_index.html
   - title: Driver
+    slug: driver
     target: "/en/softwares/driver/"
     kind: page
     new_tab: false
     children: []
+    descendants_targets: []
     path: "/pages/softwares/driver"
     file: content/en/pages/softwares/driver/_index.html
+  descendants_targets:
+  - "/en/softwares/driver/"
+  - "/en/softwares/processing-software-1/"
+  - "/en/softwares/processing-software/"
   path: "/pages/softwares"
   file: content/en/pages/softwares/_index.html
 - title: Contact
+  slug: contact
   target: "/en/contact/"
   kind: page
   new_tab: false
   children: []
+  descendants_targets: []
   path: "/pages/contact"
   file: content/en/pages/contact/_index.html
 

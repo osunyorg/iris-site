@@ -2,65 +2,89 @@
 title: Menu principal
 items:
 - title: L'entreprise
+  slug: l-entreprise
   target: "/fr/company/"
   kind: page
   new_tab: false
   children: []
+  descendants_targets: []
   path: "/pages/company"
   file: content/fr/pages/company/_index.html
 - title: Produits
+  slug: produits
   target: "/fr/produits-1/"
   kind: page
   new_tab: false
   children:
   - title: Résistivité Électrique
+    slug: resistivite-electrique
     target: ''
     kind: blank
     new_tab: false
     children:
     - title: Résistivimètres
+      slug: resistivimetres
       target: "/fr/produits-1/resistivimetres/"
       kind: page
       new_tab: false
       children: []
+      descendants_targets: []
       path: "/pages/produits-1/resistivimetres"
       file: content/fr/pages/produits-1/resistivimetres/_index.html
+    descendants_targets:
+    - "/fr/produits-1/resistivimetres/"
   - title: Polarisation provoquée
+    slug: polarisation-provoquee
     target: ''
     kind: blank
     new_tab: false
     children:
     - title: Émetteur
+      slug: emetteur
       target: ''
       kind: blank
       new_tab: false
       children: []
+      descendants_targets: []
     - title: Récepteur
+      slug: recepteur
       target: ''
       kind: blank
       new_tab: false
       children: []
+      descendants_targets: []
+    descendants_targets:
+    - ''
+  descendants_targets:
+  - ''
+  - "/fr/produits-1/resistivimetres/"
   path: "/pages/produits-1"
   file: content/fr/pages/produits-1/_index.html
 - title: Applications
+  slug: applications
   target: "/fr/applications/"
   kind: page
   new_tab: false
   children: []
+  descendants_targets: []
   path: "/pages/applications"
   file: content/fr/pages/applications/_index.html
 - title: Actualités
+  slug: actualites
   target: "/fr/actualites/"
   kind: page
   new_tab: false
   children: []
+  descendants_targets: []
   path: "/posts"
   file: content/fr/posts/_index.html
 - title: Agenda
+  slug: agenda
   target: "/fr/agenda/"
   kind: page
   new_tab: false
   children: []
+  descendants_targets: []
   path: "/events"
   file: content/fr/events/_index.html
 
