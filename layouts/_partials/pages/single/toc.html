@@ -1,18 +1,12 @@
-{{ $context := .context }}
-
-{{ range first 1 .context.Params.contents }}
-  {{ if eq .template "call_to_action" }}
-    {{ partial "pages/single/custom-cta.html" (dict 
-        "block" .
-        "context" $context
-      ) }}
+{{ $contents := .Params.contents }}
+{{ if $contents }}
+  {{ range first 1 $contents }}
+    {{ if eq .template "call_to_action" }}
+      {{ partial "pages/single/custom-cta.html" (dict 
+          "block" .
+          "context" .
+        ) }}
+    {{ end }}
   {{ end }}
 {{ end }}
-
-<nav class="toc toc-pages" id="nav-toc" aria-labelledby="toc-title">
-  <ol>
-    {{- if .context.Params.contents -}}
-      {{- partial "blocks/toc.html" .context.Params.contents -}}
-    {{- end -}}
-  </ol>
-</nav>
+{{ partial "toc/default.html" . }}

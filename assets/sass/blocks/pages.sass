@@ -62,6 +62,9 @@
                 padding-right: var(--grid-gutter)
                 @include media-breakpoint-up(desktop)
                     gap: $spacing-6 !important
+                @include media-breakpoint-down(desktop)
+                    li + li
+                        margin-top: 0
                 article.page
                     min-width: columns(6)
                     @include media-breakpoint-up(desktop)
