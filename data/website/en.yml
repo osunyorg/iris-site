@@ -10,6 +10,7 @@ contents:
 
     ranks:
       base: 2
+    html_class: "block-class-newsletter"
     top:
       active: false
 
