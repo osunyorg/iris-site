@@ -16,7 +16,7 @@ contents:
 
     data:
       code: >-
-        <form action="https://feedburner.google.com/fb/a/mailverify" method="post" target="popupwindow" onsubmit="window.open('https://feedburner.google.com/fb/a/mailverify?uri=NewsIrisInstruments', 'popupwindow', 'scrollbars=yes,width=550,height=520');return true"><table style=" width:100%;padding:0;"><tbody><tr>	<th>Abonnez-vous à la Newsletter IRIS Instruments</th></tr><tr>	<td>		<input type="text" name="email" placeholder="Email address...">	</td>	<td>      <input type="hidden" value="NewsIrisInstruments" name="uri">      <input type="hidden" name="loc" value="en_US">      <input type="submit" value="S'inscrire">	</td></tr></tbody></table></form>
+        <form action="https://feedburner.google.com/fb/a/mailverify" method="post" target="popupwindow" onsubmit="window.open('https://feedburner.google.com/fb/a/mailverify?uri=NewsIrisInstruments', 'popupwindow', 'scrollbars=yes,width=550,height=520');return true"><h3>Abonnez-vous à la Newsletter IRIS Instruments</h3>	 <input type="email" name="email" placeholder="Email address...">   <input type="hidden" value="NewsIrisInstruments" name="uri">      <input type="hidden" name="loc" value="en_US">      <input type="submit" value="Subscribe">	</form>
 
 
 
