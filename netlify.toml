@@ -15,4 +15,152 @@
 [[redirects]]
   from = "/Download/versions.txt"
   to = "https://download.iris-instruments.com/Download/versions.txt"
-  status = 301
+
+[[redirects]]
+  from = "/en/produits-1/tools/switch-pro-1/"
+  to = "/en/products/tools/wiconnect/"
+
+[[redirects]]
+  from = "/en/iris-academy/iris-academy-videos-for-resistivity-ip/"
+  to = "/en/projects/iris-academy/iris-academy-videos-for-resistivity-ip/"
+
+[[redirects]]
+  from = "/fr/produits-1/syscal-kid/"
+  to = "/fr/produits-1/resistivimetres/syscal-kid/"
+
+[[redirects]]
+  from = "/en/produits-1/tools/electrode-tester/"
+  to = "/en/products/tools/electrode-tester/"
+
+[[redirects]]
+  from = "/en/lentreprise/"
+  to = "/en/company/"
+
+[[redirects]]
+  from = "/fr/syscal-kid/"
+  to = "/fr/produits-1/resistivimetres/syscal-kid/"
+
+[[redirects]]
+  from = "/en/produits-1/tools/accessories/"
+  to = "/en/products/tools/accessories/"
+
+[[redirects]]
+  from = "/en/softwares/processing-software-1/usb-driver/"
+  to = "/en/softwares/driver/usb-driver/"
+
+[[redirects]]
+  from = "/en/produits-1/tools/switch-pro/"
+  to = "/en/products/tools/switch-pro/"
+
+[[redirects]]
+  from = "/en/produits-1/tools/security-pack/"
+  to = "/en/products/tools/security-pack/"
+
+[[redirects]]
+  from = "/en/applications/water-resources/pollution-monitoring/"
+  to = "/en/applications/environment/pollution-monitoring/"
+
+[[redirects]]
+  from = "/en/products/resistivimetres/syscal-r1-plus-1/"
+  to = "/en/products/resistivimetres/syscal-r1-plus/"
+
+[[redirects]]
+  from = "/en/produits-1/tools/test-box-ip/"
+  to = "/en/products/tools/test-box-ip/"
+
+[[redirects]]
+  from = "/en/softwares/processing-software-1/usb-tools/"
+  to = "/en/softwares/driver/usb-tools/"
+
+[[redirects]]
+  from = "/en/softwares/processing-software/tvfl/"
+  to = "/en/softwares/processing-software/tvfl-soft/"
+
+[[redirects]]
+  from = "/fr/resistivimetres/"
+  to = "/fr/produits-1/resistivimetres/"
+
+[[redirects]]
+  from = "/en/produits-1/tools/battery-tester/"
+  to = "/en/products/tools/battery-tester/"
+
+[[redirects]]
+  from = "/fr/agenda/2024-03-03-pdac-2024/"
+  to = "/fr/agenda/2024/pdac-2024/"
+
+[[redirects]]
+  from = "/en/produits-1/tools/test-box-rho/"
+  to = "/en/products/tools/test-box-rho/"
+
+[[redirects]]
+  from = "/en/produits-1/tools/sdcard-reader/"
+  to = "/en/products/tools/sdcard-reader/"
+
+[[redirects]]
+  from = "/fr/2024-syscal-kid-switch/"
+  to = "/fr/projets/2024-syscal-kid-switch/"
+
+[[redirects]]
+  from = "/fr/lentreprise/"
+  to = "/fr/company/"
+
+[[redirects]]
+  from = "/en/produits-1/resistivimetres/"
+  to = "/en/products/resistivimetres/"
+
+[[redirects]]
+  from = "/en/produits-1/resistivimetres/syscal-r1-plus/"
+  to = "/en/products/resistivimetres/syscal-kid/"
+
+[[redirects]]
+  from = "/fr/agenda/2024-01-22-ame-roundup/"
+  to = "/fr/agenda/2024/ame-roundup/"
+
+[[redirects]]
+  from = "/fr/iris-instruments/"
+  to = "/fr/organisations/iris-instruments/"
+
+[[redirects]]
+  from = "/en/produits-1/tools/pro-tester/"
+  to = "/en/products/tools/pro-tester/"
+
+[[redirects]]
+  from = "/en/produits-1/induced-polarisation/"
+  to = "/en/products/induced-polarisation/"
+
+[[redirects]]
+  from = "/en/training/electromagnetic-traning/"
+  to = "/en/training/electromagnetic-training/"
+
+[[redirects]]
+  from = "/en/produits-1/tools/"
+  to = "/en/products/tools/"
+
+[[redirects]]
+  from = "/en/produits-1/"
+  to = "/en/products/"
+
+[[redirects]]
+  from = "/en/agenda/2024-08-25-igc-2024/"
+  to = "/en/agenda/2024/igc-2024/"
+
+[[redirects]]
+  from = "/fr/equipe-editoriale/"
+  to = "/fr/equipe/equipe-editoriale/"
+
+[[redirects]]
+  from = "/en/produits-1/electromagnetic/"
+  to = "/en/products/electromagnetic/"
+
+[[redirects]]
+  from = "/en/produits-1/tools/wiconnect/"
+  to = "/en/products/tools/wiconnect/"
+
+[[redirects]]
+  from = "/fr/agenda/2024-03-24-sageep-2024/"
+  to = "/fr/agenda/2024/sageep-2024/"
+
+[[redirects]]
+  from = "/en/iris-academy/"
+  to = "/en/projects/iris-academy/"
+
