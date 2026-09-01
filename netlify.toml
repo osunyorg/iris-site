@@ -121,8 +121,16 @@
   to = "/fr/organisations/iris-instruments/"
 
 [[redirects]]
+  from = "/en/files/2026/"
+  to = "/en/files/2026/groundwater-textpdf/"
+
+[[redirects]]
   from = "/en/produits-1/tools/pro-tester/"
   to = "/en/products/tools/pro-tester/"
+
+[[redirects]]
+  from = "/fr/2026/"
+  to = "/fr/2026/master-curvespdf/"
 
 [[redirects]]
   from = "/en/produits-1/induced-polarisation/"
