@@ -29,6 +29,10 @@
   to = "/fr/produits-1/resistivimetres/syscal-kid/"
 
 [[redirects]]
+  from = "/fr/2026/prosys-frpdf/"
+  to = "/fr/fichiers/2026/prosys-frpdf/"
+
+[[redirects]]
   from = "/en/produits-1/tools/electrode-tester/"
   to = "/en/products/tools/electrode-tester/"
 
@@ -89,6 +93,10 @@
   to = "/fr/agenda/2024/pdac-2024/"
 
 [[redirects]]
+  from = "/fr/2026/groundwater-textpdf/"
+  to = "/fr/fichiers/2026/groundwater-textpdf/"
+
+[[redirects]]
   from = "/en/produits-1/tools/test-box-rho/"
   to = "/en/products/tools/test-box-rho/"
 
@@ -129,12 +137,20 @@
   to = "/en/products/tools/pro-tester/"
 
 [[redirects]]
+  from = "/fr/2026/checklist-syscal-standardpdf/"
+  to = "/fr/fichiers/2026/checklist-syscal-standardpdf/"
+
+[[redirects]]
   from = "/fr/2026/"
-  to = "/fr/2026/master-curvespdf/"
+  to = "/fr/fichiers/2026/master-curvespdf/"
 
 [[redirects]]
   from = "/en/produits-1/induced-polarisation/"
   to = "/en/products/induced-polarisation/"
+
+[[redirects]]
+  from = "/fr/2026/master-curvespdf/"
+  to = "/fr/fichiers/2026/master-curvespdf/"
 
 [[redirects]]
   from = "/en/training/electromagnetic-traning/"
@@ -171,4 +187,8 @@
 [[redirects]]
   from = "/en/iris-academy/"
   to = "/en/projects/iris-academy/"
+
+[[redirects]]
+  from = "/fr/2026/syscal-kid-frpdf/"
+  to = "/fr/fichiers/2026/syscal-kid-frpdf/"
 
